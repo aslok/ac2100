@@ -1,0 +1,11 @@
+Package: libpcap
+Version: 1.9.0-2
+Depends: libc, libssp
+Source: package/libs/libpcap
+License: BSD-3-Clause
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 106032
+Description:  This package contains a system-independent library for user-level network packet
+ capture.

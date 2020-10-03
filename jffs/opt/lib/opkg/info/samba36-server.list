@@ -1,0 +1,15 @@
+/opt/sbin/smbd
+/opt/sbin/smbstatus
+/opt/sbin/pdbedit
+/opt/etc/samba/lowcase.dat
+/opt/sbin/eventlogadm
+/opt/etc/init.d/S08samba
+/opt/etc/samba/valid.dat
+/opt/sbin/nmbd
+/opt/sbin/profiles
+/opt/etc/samba/upcase.dat
+/opt/lib/upgrade/keep.d/samba36-server
+/opt/sbin/samba_multicall
+/opt/sbin/tdbbackup
+/opt/sbin/smbpasswd
+/opt/etc/samba/smb.conf.template

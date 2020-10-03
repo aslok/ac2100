@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/opt/bin/updatedb --output=/tmp/locatedb "$@"

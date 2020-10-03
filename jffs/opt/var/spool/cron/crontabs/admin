@@ -1,0 +1,15 @@
+MAILTO=aslok.zp@gmail.com
+LOGFILE=/tmp/cron.log
+
+# @reboot at startup 
+# @yearly once a year
+# @annually ( == @yearly)
+# @monthly once a month
+# @weekly once a week
+# @daily once a day
+# @midnight ( == @daily)
+# @hourly once an hour
+
+# min hour dom month dow command
+  *   *    *   *     *   [ -f /jffs/scripts/cron-event ] && /jffs/scripts/cron-event '*' &> /dev/null
+  0   4    *   *     *   /jffs/services/logger "$(/jffs/services/blocklist-update)" "cron" &> /dev/null

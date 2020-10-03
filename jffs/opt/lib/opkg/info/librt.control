@@ -1,0 +1,10 @@
+Package: librt
+Version: 1.0.17-3
+Depends: libpthread
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 7657
+Description:  POSIX.1b RealTime extension library

@@ -1,0 +1,9 @@
+Package: coreutils-dircolors
+Version: 8.30-2
+Depends: libc, libssp, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipselsf
+Installed-Size: 25352
+Description:  Full version of standard GNU dircolors utility.

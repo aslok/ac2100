@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0)  "$1 - $2"
+
+/opt/etc/init.d/S77ntpd start

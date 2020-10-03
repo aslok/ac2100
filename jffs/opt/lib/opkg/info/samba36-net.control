@@ -1,0 +1,11 @@
+Package: samba36-net
+Version: 3.6.25-14
+Depends: libc, libssp, libreadline, libncurses, libiconv-full, libubacktrace
+Source: package/network/services/samba36
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 1030904
+Description:  Samba 3.6 SMB/CIFS net commands

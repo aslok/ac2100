@@ -1,0 +1,15 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0)  "$1"
+
+FL=$(cat /tmp/modem | grep -v % | grep ^FL)
+FLP=$(cat /tmp/modem | grep % | grep ^FL)
+logger -t $(basename $0) "$(echo $FL)"
+logger -t $(basename $0) "$(echo $FLP)"
+
+case "$1" in
+    Online)
+        
+        ;;
+esac

@@ -1,0 +1,12 @@
+Package: libgd
+Version: 2.2.5-4
+Depends: libc, libssp, libjpeg, libpng, libwebp, libfreetype
+Source: feeds/packages/libs/libgd
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipselsf
+Installed-Size: 128312
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.

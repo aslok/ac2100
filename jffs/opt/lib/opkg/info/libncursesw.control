@@ -1,0 +1,10 @@
+Package: libncursesw
+Version: 6.1-5
+Depends: libc, libssp, terminfo
+Source: package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: mipselsf
+Installed-Size: 226761
+Description:  Terminal handling library (Unicode)

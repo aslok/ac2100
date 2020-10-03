@@ -1,0 +1,13 @@
+Package: libslang2
+Version: 2.3.2-4
+Depends: libc, libssp, terminfo
+Source: feeds/packages/libs/slang2
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: mipselsf
+Installed-Size: 369799
+Description:  Multi-platform programmer's library providing facilities for interactive
+ applications.  Includes such things as display/screen management,
+ keyboard input, keymaps, etc.  Includes the embeddable S-Lang interpreter.

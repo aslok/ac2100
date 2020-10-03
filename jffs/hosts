@@ -1,0 +1,44 @@
+192.168.100.1     datagroup
+192.168.1.2       pixelservip
+192.168.1.5       nas3r
+192.168.1.10      3r
+192.168.1.11      tan4ik-pc
+192.168.1.12      t95q
+192.168.1.13      tan4ik-nb
+192.168.1.17      bv7k
+
+192.168.1.18      hp3r phpmyadmin
+192.168.1.18      testlb.local www.testlb.local
+192.168.1.18      api.testlb.local www.api.testlb.local
+192.168.1.18      shopfront.testlb.local www.shopfront.testlb.local
+192.168.1.18      milestone.local www.milestone.local
+
+192.168.1.2       vkontakte.ru *.vkontakte.ru vk.com *.vk.com
+192.168.1.2       ok.ru *.ok.ru odnoklassniki.ru *.odnoklassniki.ru
+192.168.1.2       yandex.ru *.yandex.ru yandex.st yastatic.net
+192.168.1.2       mail.ru *.mail.ru
+
+192.168.1.2       sublimetext.com www.sublimetext.com
+192.168.1.2       sublimehq.com
+192.168.1.2       telemetry.sublimehq.com
+192.168.1.2       license.sublimehq.com
+192.168.1.2       45.55.255.55
+192.168.1.2       45.55.41.223
+
+192.168.1.2       ads.youtube.com
+192.168.1.2       *.2mdn.net
+192.168.1.2       *.doubleclick.net
+192.168.1.2       doubleclick.net
+192.168.1.2       *.googlesyndication.com
+192.168.1.2       *.google-analytics.com
+192.168.1.2       adriver.ru
+192.168.1.2       pink.habralab.ru
+192.168.1.2       *.scorecardresearch.com
+192.168.1.2       rad.msn.com
+192.168.1.2       page.shareman.tv
+192.168.1.2       globalteaser.com
+192.168.1.2       globalteaser.ru
+192.168.1.2       *.yadro.ru
+192.168.1.2       banner.shareman.tv
+192.168.1.2       oolads.com
+192.168.1.2       bonusmall.ru

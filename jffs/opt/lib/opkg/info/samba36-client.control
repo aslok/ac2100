@@ -1,0 +1,11 @@
+Package: samba36-client
+Version: 3.6.25-14
+Depends: libc, libssp, libreadline, libncurses, libiconv-full, libubacktrace
+Source: package/network/services/samba36
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 2407269
+Description:  Samba 3.6 SMB/CIFS client

@@ -1,0 +1,10 @@
+/opt/share/nmap/nmap-os-db
+/opt/share/nmap/nmap-rpc
+/opt/share/nmap/nmap.dtd
+/opt/share/nmap/nmap-mac-prefixes
+/opt/share/nmap/nmap-payloads
+/opt/share/nmap/nmap-service-probes
+/opt/share/nmap/nmap.xsl
+/opt/share/nmap/nmap-services
+/opt/share/nmap/nmap-protocols
+/opt/bin/nmap

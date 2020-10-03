@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+STATUS=$(/jffs/services/modem-check)
+
+if [ ! -f /tmp/modem ] && [ -z "$STATUS" ]; then
+    exit
+fi
+
+if [ ! -f /tmp/modem ]; then
+    OLD_STATUS=
+else
+    OLD_STATUS=$(grep ^STATUS /tmp/modem | awk '{print $2}')
+fi
+
+NEW_STATUS=$(echo "$STATUS" | grep ^STATUS | awk '{print $2}')
+
+if [ "$OLD_STATUS" == "$NEW_STATUS" ]; then
+    exit
+fi
+
+echo "$STATUS" > /tmp/modem
+logger -t $(basename $0)  "Modem status changed:  $OLD_STATUS -> $NEW_STATUS"
+
+[ -f /jffs/scripts/modem-event ] && /jffs/scripts/modem-event "$NEW_STATUS" "$OLD_STATUS"

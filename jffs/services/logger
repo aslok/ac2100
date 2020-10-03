@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+IN=$1
+OLD_IFS=$IFS
+IFS="
+"
+if [ -n "$2" ]; then
+    TITLE=$2
+else
+    TITLE=$(basename $0)
+fi
+for LINE in $IN; do
+    logger -t "$TITLE" "$LINE"
+done
+
+IFS=$OLD_IFS

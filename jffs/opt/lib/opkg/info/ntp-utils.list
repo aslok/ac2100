@@ -1,0 +1,3 @@
+/opt/sbin/ntpq
+/opt/sbin/ntpdc
+/opt/sbin/ntptime

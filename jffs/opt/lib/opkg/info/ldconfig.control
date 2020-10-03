@@ -1,0 +1,9 @@
+Package: ldconfig
+Version: 1.0.17-3
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 9020
+Description:  Shared library path configuration

@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+OLD_PWD=$(pwd)
+cd "$(dirname "$0")"
+
+OLD_IFS=$IFS
+IFS="
+"
+STATUS=( $(echo $(lynx --dump 'http://192.168.100.1/index.cgi?page=modemStatusData') | sed -e 's/[^a-z0-9\.,\/_:#-]\+//gi' -e 's/#/\n/g' | grep -v ^$) )
+LABELS=( $(cat "$0.dat") )
+
+for (( KEY = 0; KEY < ${#LABELS[@]}; KEY++ ));
+do
+    echo "${LABELS[$KEY]}	${STATUS[$KEY]}"
+done
+
+IFS=$OLD_IFS
+cd "$OLD_PWD"
+
+led_ctrl 6 0

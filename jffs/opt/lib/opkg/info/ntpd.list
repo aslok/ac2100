@@ -1,0 +1,4 @@
+/opt/etc/ntp.conf
+/opt/sbin/ntpd
+/opt/etc/init.d/S77ntpd
+/opt/etc/hotplug.d/iface/20-ntpd

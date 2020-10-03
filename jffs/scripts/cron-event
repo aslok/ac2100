@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+case $1 in
+    '*')
+        # every 60 seconds
+        /jffs/services/modem-event
+        ;;
+esac

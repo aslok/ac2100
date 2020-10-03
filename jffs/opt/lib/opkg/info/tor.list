@@ -1,0 +1,4 @@
+/opt/etc/tor/torrc
+/opt/sbin/tor
+/opt/lib/upgrade/keep.d/tor
+/opt/etc/init.d/S35tor

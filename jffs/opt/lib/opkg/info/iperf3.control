@@ -1,0 +1,12 @@
+Package: iperf3
+Version: 3.7-1
+Depends: libc, libssp
+Source: package/network/utils/iperf3
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipselsf
+Installed-Size: 60052
+Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
+ performance, allowing the tuning of various parameters and
+ characteristics.

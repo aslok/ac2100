@@ -1,0 +1,11 @@
+Package: coreutils
+Version: 8.30-2
+Depends: libc, libssp
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipselsf
+Installed-Size: 105
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.

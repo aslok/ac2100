@@ -1,0 +1,9 @@
+Package: net-tools-hostname
+Version: 1.60-4
+Depends: libc, libssp
+Source: feeds/oldports/net-tools
+Section: net
+Architecture: mipselsf
+Installed-Size: 4486
+Description:  Program hostname from net-tools.
+ Reports or sets the name of the current host system.

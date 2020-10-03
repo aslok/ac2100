@@ -1,0 +1,7 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0) "$1 - $2"
+
+/opt/etc/init.d/S08samba start
+/opt/etc/init.d/S35tor start

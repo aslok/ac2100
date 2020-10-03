@@ -1,0 +1,6 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0) "$1"
+
+/jffs/services/ntp-wait &> /dev/null &

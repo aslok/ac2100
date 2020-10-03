@@ -1,0 +1,9 @@
+Package: libpopt
+Version: 1.16-2
+Depends: libc, libssp
+Source: package/libs/popt
+License: MIT
+Section: libs
+Architecture: mipselsf
+Installed-Size: 26138
+Description:  A command line option parsing library

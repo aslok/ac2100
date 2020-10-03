@@ -1,0 +1,33 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+mkdir /tmp/opt
+mount -o bind /jffs/opt /tmp/opt
+mount -o bind /jffs/opt/var/spool/cron /var/spool/cron
+mount -o bind /jffs/opt/var/wwwext /var/wwwext
+mount -o bind /jffs/home /tmp/home
+hostname wifi3r
+
+mkdir /tmp/softcenter
+mkdir /tmp/usericon
+mkdir /tmp/db
+
+mkdir /tmp/.tor
+chmod 700 /tmp/.tor
+
+touch /tmp/syslog
+touch /tmp/syslog-1
+touch /jffs/syslog.log
+touch /jffs/syslog.log-1
+mount -o bind /tmp/syslog /jffs/syslog.log
+mount -o bind /tmp/syslog-1 /jffs/syslog.log-1
+
+touch /tmp/.bash_history
+
+mkdir /tmp/cache/
+mkdir /tmp/cache/pixelserv/
+chown -R nobody /opt/var/cache/pixelserv/
+ln -s /jffs/ca.crt /tmp/cache/pixelserv/
+ln -s /jffs/ca.key /tmp/cache/pixelserv/
+
+/opt/sbin/updatedb

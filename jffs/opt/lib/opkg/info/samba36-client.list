@@ -1,0 +1,7 @@
+/opt/sbin/smbget
+/opt/sbin/smbclient
+/opt/sbin/smbspool
+/opt/sbin/smbtree
+/opt/sbin/smbcquotas
+/opt/sbin/nmblookup
+/opt/sbin/smbcacls

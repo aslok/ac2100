@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+/opt/bin/locate --database=/tmp/locatedb "$@"

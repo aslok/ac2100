@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+FILE=/tmp/ntp_ready
+if [ -f $FILE ]; then
+    exit
+fi
+while [ $(nvram get ntp_ready) -ne 1 ]; do
+    sleep 1s;
+done
+touch $FILE
+[ -f /jffs/scripts/ntp-start ] && /jffs/scripts/ntp-start

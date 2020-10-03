@@ -1,0 +1,11 @@
+Package: libjpeg
+Version: 9c-2
+Depends: libc, libssp
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipselsf
+Installed-Size: 124915
+Description:  The Independent JPEG Group's JPEG runtime library

@@ -1,0 +1,16 @@
+Package: ntpd
+Version: 4.2.8p13-2
+Depends: libc, libssp, libopenssl, libpthread, libcap, ntp-utils
+Source: feeds/packages/net/ntpd
+License: Unique
+LicenseFiles: COPYRIGHT html/copyright.html
+Section: net
+Require-User: ntp=123:ntp=123
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mipselsf
+Installed-Size: 324987
+Description:  The ISC ntp suite is a collection of tools used to synchronize the
+ system clock with remote NTP time servers and run/monitor local NTP
+ servers.
+ .
+ This package contains the ntpd server.

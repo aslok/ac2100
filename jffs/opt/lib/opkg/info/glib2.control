@@ -1,0 +1,9 @@
+Package: glib2
+Version: 2.58.3-3
+Depends: libc, libssp, libiconv-full, libintl-full, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mipselsf
+Installed-Size: 1111998
+Description:  The GLib library of C routines

@@ -1,0 +1,10 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0) "$1 - $2"
+
+pc_replace "router.asus.com" "wifi3r router.asus.com" /etc/hosts
+
+if ! grep -q 192.168.1.1 /etc/resolv.conf; then
+    echo -e "# added from $(basename $0)\nnameserver 192.168.1.1\n$(cat /etc/resolv.conf)" > /etc/resolv.conf
+fi

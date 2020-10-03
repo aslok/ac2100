@@ -1,0 +1,7 @@
+#!/bin/sh
+cat << EOF
+Place ca.crt and ca.key to /opt/var/cache/pixelserv before starting HTTPS mode.
+Start options can be adjusted via /opt/etc/init.d/S80pixelserv-tls.
+
+See 'pixelserv-tls -h' for details
+EOF

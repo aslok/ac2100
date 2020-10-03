@@ -1,0 +1,49 @@
+#!/bin/sh
+
+[ -z "$(lsmod | grep imq)" ] && modprobe imq
+
+LAN=br0
+
+# очищаем настройки шейпера для внутреннего интрефейса
+tc qdisc del dev $LAN root
+tc qdisc add dev $LAN root handle 1: htb default 90
+
+# Создаем классы
+# Класс 1:1 для трафика от WAN для LAN
+tc class add dev $LAN parent 1:  classid 1:1 htb rate 5Mbit ceil 5Mbit
+# Класс 1:2 для трафика от LAN для LAN
+tc class add dev $LAN parent 1:  classid 1:2 htb rate 1Gbit ceil 1Gbit
+# Класс 1:10 от 3 до 5
+tc class add dev $LAN parent 1:1 classid 1:10 htb rate 3Mbit ceil 5Mbit
+# Класс 1:11 от 1 до 5
+tc class add dev $LAN parent 1:1 classid 1:11 htb rate 1Mbit ceil 5Mbit
+# Класс 1:12 от 2 до 5
+tc class add dev $LAN parent 1:1 classid 1:12 htb rate 2Mbit ceil 5Mbit
+# Класс 1:90 от 1/8 до 5
+tc class add dev $LAN parent 1:1 classid 1:90 htb rate 128kbit ceil 5Mbit
+
+# Дисциплины для трафика, приоритет у правил с меньшим классом
+tc qdisc add dev $LAN parent 1:2 handle 2: pfifo limit 5
+tc qdisc add dev $LAN parent 1:10 handle 10: pfifo limit 5
+tc qdisc add dev $LAN parent 1:11 handle 11: pfifo limit 5
+tc qdisc add dev $LAN parent 1:12 handle 12: pfifo limit 5
+tc qdisc add dev $LAN parent 1:90 handle 90: sfq perturb 10
+
+# Трафик для 3r        - 192.168.1.10     - 1:11 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.10 flowid 1:11
+# Трафик для tan4ik-pc - 192.168.1.11     - 1:11 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.11 flowid 1:11
+# Трафик для t95q      - 192.168.1.12     - 1:12 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.12 flowid 1:12
+# Трафик для tan4ik-nb - 192.168.1.13     - 1:12 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.13 flowid 1:12
+# Трафик для bv5k5pro  - 192.168.1.16     - 1:11 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.16 flowid 1:11
+# Трафик для bv7kpro   - 192.168.1.17     - 1:11 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.17 flowid 1:11
+# Трафик для hp3r      - 192.168.1.18     - 1:10 - WAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip dst 192.168.1.18 flowid 1:10
+
+# Трафик от           - 192.168.1.(1-254) - 1:2  - LAN
+tc filter add dev $LAN protocol ip parent 1:0 prio 1 u32 match ip src 192.168.1.0/16 flowid 1:2
+ 

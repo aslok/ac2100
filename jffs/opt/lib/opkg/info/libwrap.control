@@ -1,0 +1,10 @@
+Package: libwrap
+Version: 7.6-2
+Depends: libc, libssp
+Source: feeds/packages/libs/tcp_wrappers
+License: BSD
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mipselsf
+Installed-Size: 12522
+Description:  Security wrapper library for TCP services

@@ -1,0 +1,6 @@
+/opt/lib/libmbedx509.so.0
+/opt/lib/libmbedx509.so.2.16.2
+/opt/lib/libmbedcrypto.so.2.16.2
+/opt/lib/libmbedtls.so.12
+/opt/lib/libmbedtls.so.2.16.2
+/opt/lib/libmbedcrypto.so.3

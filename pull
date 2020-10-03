@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+BACK=`pwd`
+cd "$(dirname "$0")"
+rsync --progress --delete -avzzhx -e ssh admin@wifi3r:/jffs .
+cd "$BACK"

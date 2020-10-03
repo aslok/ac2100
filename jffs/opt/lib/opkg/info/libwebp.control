@@ -1,0 +1,10 @@
+Package: libwebp
+Version: 1.0.3-1
+Depends: libc, libssp, libpthread
+Source: feeds/packages/libs/libwebp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Architecture: mipselsf
+Installed-Size: 218533
+Description:  The libwebp package contains a library for the WebP format.

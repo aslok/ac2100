@@ -1,0 +1,468 @@
+Package: samba36-net
+Version: 3.6.25-14
+Depends: libc, libssp, libreadline, libncurses, libiconv-full, libubacktrace
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549924
+
+Package: terminfo
+Version: 6.1-5
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549926
+
+Package: ldconfig
+Version: 1.0.17-3
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549929
+
+Package: column
+Version: 2.33-2
+Depends: libc, libssp, libsmartcols
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549932
+
+Package: samba36-server
+Version: 3.6.25-14
+Depends: libc, libssp, libiconv-full, libubacktrace
+Status: install user installed
+Architecture: mipselsf
+Conffiles:
+ /opt/etc/samba/smb.conf.template 2bf7634106f9a79020674b55c2fc9077ad139d43e5c3019c6afd3fdbf4e420ba
+Installed-Time: 1601549945
+
+Package: libc
+Version: 1.0.17-3
+Depends: libgcc
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549950
+
+Package: libjpeg
+Version: 9c-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549953
+
+Package: libpthread
+Version: 1.0.17-3
+Depends: libgcc
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549956
+
+Package: libubacktrace
+Version: 1.0.17-3
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1601549922
+Auto-Installed: yes
+
+Package: glib2
+Version: 2.58.3-3
+Depends: libc, libssp, libiconv-full, libintl-full, zlib, libpthread, libffi, libattr
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549968
+
+Package: bash
+Version: 5.0-3
+Depends: libc, libssp, libncurses, libreadline
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601549974
+
+Package: pixelserv-tls
+Version: 2.2.1-1
+Depends: libc, libssp, libopenssl, libpthread
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550219
+
+Package: libacl
+Version: 20170420-1
+Depends: libc, libssp, libattr
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1600852780
+Auto-Installed: yes
+
+Package: libssh2
+Version: 1.9.0-2
+Depends: libc, libssp, libmbedtls, zlib
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550226
+
+Package: mc
+Version: 4.8.23-2
+Depends: libc, libssp, glib2, libslang2, libmount, libssh2, libiconv-full
+Status: install user installed
+Architecture: mipselsf
+Conffiles:
+ /opt/etc/mc/mc.menu 5a8242fc948ab12f77e9c6bc6eaae5c0eac063e5f0e933301fe0af089a6886fd
+Installed-Time: 1601550234
+
+Package: libcap
+Version: 2.27-1
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550237
+
+Package: libpcre
+Version: 8.43-1
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550240
+
+Package: libgd
+Version: 2.2.5-4
+Depends: libc, libssp, libjpeg, libpng, libwebp, libfreetype
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550247
+
+Package: grep
+Version: 3.3-1
+Depends: libc, libssp, libpcre
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550250
+
+Package: coreutils
+Version: 8.30-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550253
+
+Package: libblkid
+Version: 2.33-2
+Depends: libc, libssp, libuuid
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550257
+
+Package: libmbedtls
+Version: 2.16.2-1
+Depends: libc, libssp
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1601550226
+Auto-Installed: yes
+
+Package: libwrap
+Version: 7.6-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550259
+
+Package: libiconv-full
+Version: 1.11.1-4
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550265
+
+Package: ntpd
+Version: 4.2.8p13-2
+Depends: libc, libssp, libopenssl, libpthread, libcap, ntp-utils
+Status: install user installed
+Architecture: mipselsf
+Conffiles:
+ /opt/etc/ntp.conf 555b61679fd5dedfedf3b689224f337dfa6cb1a4d9a99bc9e629d642c81801a0
+Installed-Time: 1601550277
+
+Package: libxml2
+Version: 2.9.9-2
+Depends: libc, libssp, libpthread, zlib
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550283
+
+Package: libevent2
+Version: 2.1.8-3
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550287
+
+Package: tcpdump
+Version: 4.9.2-1b
+Depends: libc, libssp, libpcap
+Status: install user not-installed
+Architecture: mipselsf
+
+Package: libpng
+Version: 1.6.37-2
+Depends: libc, libssp, zlib
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550290
+
+Package: lynx
+Version: 2.8.9rel.1-1
+Depends: libc, libssp, libncursesw, zlib, libopenssl, ca-bundle
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550677
+
+Package: nmap
+Version: 7.70-1a
+Depends: libc, libssp, libpcap, libstdcpp, zlib, libpcre
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550919
+
+Package: libstdcpp
+Version: 5.4.0-3
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550701
+
+Package: libgcc
+Version: 5.4.0-3
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550295
+
+Package: libwebp
+Version: 1.0.3-1
+Depends: libc, libssp, libpthread
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1601550247
+Auto-Installed: yes
+
+Package: libreadline
+Version: 8.0-1a
+Depends: libc, libssp, libncursesw
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550704
+
+Package: libslang2
+Version: 2.3.2-4
+Depends: libc, libssp, terminfo
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550710
+
+Package: libffi
+Version: 3.2.1-3
+Depends: libc, libssp
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1600251989
+Auto-Installed: yes
+
+Package: libuuid
+Version: 2.33-2
+Depends: libc, libssp, librt
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550298
+
+Package: libsmartcols
+Version: 2.33-2
+Depends: libc, libssp, librt
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550301
+
+Package: librt
+Version: 1.0.17-3
+Depends: libpthread
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550304
+
+Package: rsync
+Version: 3.1.3-3
+Depends: libc, libssp, libpopt, libattr, libacl, zlib
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550307
+
+Package: bind-libs
+Version: 9.14.4-1
+Depends: libc, libssp, libopenssl, zlib, libubacktrace, libpthread, libatomic
+Status: install user not-installed
+Architecture: mipselsf
+
+Package: libintl-full
+Version: 0.19.8.1-2
+Depends: libc, libssp, libpthread, librt
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550313
+
+Package: libidn
+Version: 1.35-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550316
+
+Package: libncurses
+Version: 6.1-5
+Depends: libc, libssp, libncursesw
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550319
+
+Package: libpcap
+Version: 1.9.0-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550322
+
+Package: samba36-client
+Version: 3.6.25-14
+Depends: libc, libssp, libreadline, libncurses, libiconv-full, libubacktrace
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550726
+
+Package: libmount
+Version: 2.33-2
+Depends: libc, libssp, libblkid, librt
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550342
+
+Package: zlib
+Version: 1.2.11-3
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550344
+
+Package: libncursesw
+Version: 6.1-5
+Depends: libc, libssp, terminfo
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550349
+
+Package: findutils
+Version: 4.6.0-4
+Depends: libc, libssp
+Status: install user not-installed
+Architecture: mipselsf
+
+Package: tor
+Version: 0.4.1.6-1
+Depends: libc, libssp, libevent2, libopenssl, libpthread, librt, zlib, libcap, libubacktrace
+Status: install user installed
+Architecture: mipselsf
+Conffiles:
+ /opt/etc/tor/torrc d85d63a363cc98411fbb1d797327ef68e07b5882c0333c89978bde06e6f5f2a8
+Installed-Time: 1601550738
+
+Package: htop
+Version: 2.2.0-2
+Depends: libc, libssp, libncurses, libubacktrace
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550352
+
+Package: ca-bundle
+Version: 20190110-1
+Depends: libc, libssp
+Status: install ok installed
+Architecture: all
+Installed-Time: 1601550677
+Auto-Installed: yes
+
+Package: libssp
+Version: 5.4.0-3
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550355
+
+Package: tor-geoip
+Version: 0.4.1.6-1
+Depends: libc, libssp, tor
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550841
+
+Package: libbz2
+Version: 1.0.8-1
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550358
+
+Package: aria2
+Version: 1.34.0-6
+Depends: libc, libssp, zlib, libstdcpp, libopenssl, libxml2, libssh2
+Status: install user not-installed
+Architecture: mipselsf
+
+Package: coreutils-dircolors
+Version: 8.30-2
+Depends: libc, libssp, coreutils
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550360
+
+Package: ntp-utils
+Version: 4.2.8p13-2
+Depends: libc, libssp, libopenssl, libpthread, libcap
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550743
+
+Package: net-tools-hostname
+Version: 1.60-4
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1600256074
+
+Package: libpopt
+Version: 1.16-2
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550363
+
+Package: libfreetype
+Version: 2.10.1-1
+Depends: libc, libssp, zlib, libpng
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550748
+
+Package: iperf3
+Version: 3.7-1
+Depends: libc, libssp
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550751
+
+Package: libattr
+Version: 20170915-1
+Depends: libc, libssp
+Status: install ok installed
+Architecture: mipselsf
+Installed-Time: 1600251990
+Auto-Installed: yes
+
+Package: libopenssl
+Version: 1.1.1d-1
+Depends: libc, libssp, zlib, libpthread
+Status: install user installed
+Architecture: mipselsf
+Installed-Time: 1601550851
+

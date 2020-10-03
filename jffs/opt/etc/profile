@@ -1,0 +1,21 @@
+#!/bin/sh
+
+export PATH='/opt/usr/sbin:/opt/sbin:/opt/bin:/usr/local/sbin:/usr/sbin:/usr/bin:/sbin:/bin'
+export TMP='/opt/tmp'
+export TEMP='/opt/tmp'
+
+# This is for interactive sessions only
+if [ "$PS1" ] ; then
+  export TERM=xterm
+  [ -d /opt/share/terminfo ] && export TERMINFO='/opt/share/terminfo'
+  export LANG='en_US.UTF-8'
+  export LC_ALL='en_US.UTF-8'
+fi
+
+export PATH=$PATH:/jffs/softcenter/bin:/jffs/softcenter/scripts
+export LD_LIBRARY_PATH=/jffs/softcenter/lib:${LD_LIBRARY_PATH}
+
+export TERMINFO=/opt/share/terminfo
+export SHELL="/opt/bin/bash"
+
+[ -f /opt/bin/bash ] && exec /opt/bin/bash

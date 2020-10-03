@@ -1,0 +1,21 @@
+# content from file /jffs/configs/dnsmasq.conf.add
+
+addn-hosts=/jffs/hosts
+domain-needed
+bogus-priv
+
+addn-hosts=/jffs/services/blocklist
+domain-needed
+bogus-priv
+
+dhcp-option=lan,42,192.168.1.1
+dhcp-option=lan,44,192.168.1.1
+
+enable-tftp
+tftp-root=/jffs/tftp
+tftp-no-blocksize
+
+dhcp-boot=/arch/boot/syslinux/lpxelinux.0
+dhcp-option-force=209,boot/syslinux/archiso.cfg
+dhcp-option-force=210,/arch/
+dhcp-option-force=66,192.168.1.5

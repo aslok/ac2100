@@ -1,0 +1,14 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0) "$1 - $2"
+
+case "$1" in
+    restart)
+        case "$2" in
+            wan_if)
+                /jffs/services/modem-event
+                ;;
+        esac
+        ;;
+esac

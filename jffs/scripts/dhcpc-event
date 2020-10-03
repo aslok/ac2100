@@ -1,0 +1,24 @@
+#!/bin/sh
+source /usr/sbin/helper.sh
+
+logger -t $(basename $0)  "$1 - $2"
+
+/jffs/services/modem-event
+
+if ! grep -q 192.168.1.1 /etc/resolv.conf; then
+    echo -e "# added from $(basename $0)\nnameserver 192.168.1.1\n$(cat /etc/resolv.conf)" > /etc/resolv.conf
+fi
+
+case "$1" in
+    bound)
+        ifconfig br0:pixelserv 192.168.1.2 up
+        /opt/etc/init.d/S80pixelserv-tls start
+        
+        ;;
+    deconfig)
+        /opt/etc/init.d/S80pixelserv-tls stop
+        ifconfig br0:pixelserv 192.168.1.2 down
+        ;;
+    renew)
+        ;;
+esac

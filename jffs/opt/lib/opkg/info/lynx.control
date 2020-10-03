@@ -1,0 +1,10 @@
+Package: lynx
+Version: 2.8.9rel.1-1
+Depends: libc, libssp, libncursesw, zlib, libopenssl, ca-bundle
+Source: feeds/packages/net/lynx
+License: GPL-2.0
+Section: net
+Maintainer: Leonid Esman <leonid.esman@gmail.com>
+Architecture: mipselsf
+Installed-Size: 499483
+Description:  Classic non-graphical (text-mode) web browser

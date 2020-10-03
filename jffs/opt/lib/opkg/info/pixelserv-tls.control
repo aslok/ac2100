@@ -1,0 +1,10 @@
+Package: pixelserv-tls
+Version: 2.2.1-1
+Depends: libc, libssp, libopenssl, libpthread
+Source: feeds/rtndev/pixelserv-tls
+Section: net
+Maintainer: Entware team, https://entware.net
+Architecture: mipselsf
+Installed-Size: 33163
+Description:  pixelserv-tls is a tiny bespoke webserver for adblock
+ with HTTP/1.1 and HTTPS support

@@ -1,0 +1,11 @@
+Package: nmap
+Version: 7.70-1a
+Depends: libc, libssp, libpcap, libstdcpp, zlib, libpcre
+Source: feeds/packages/net/nmap
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Nuno Goncalves <nunojpg@gmail.com>
+Architecture: mipselsf
+Installed-Size: 2320643
+Description:  Utility for network exploration or security auditing

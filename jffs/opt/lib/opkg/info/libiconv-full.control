@@ -1,0 +1,11 @@
+Package: libiconv-full
+Version: 1.11.1-4
+Depends: libc, libssp
+Source: package/libs/libiconv-full
+License: LGPL-2.0
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipselsf
+Installed-Size: 672491
+Description:  Character set conversion library

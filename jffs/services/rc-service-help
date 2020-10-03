@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+curl https://raw.githubusercontent.com/MerlinRdev/ac85p-merlin/master/release/src/router/rc/services.c | grep 'start_\|restart_\|stop_\|check_' | sed -e 's/^.*\(\(start\|restart\|stop\|check\)_[^\.()" !:]*\).*$/\1/i' | sort | uniq
