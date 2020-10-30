@@ -1,0 +1,10 @@
+Package: luci-lib-base
+Version: git-20.300.73983-fc93fa6
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, luci-lib-jsonc, liblucihttp-lua
+Source: feeds/luci/libs/luci-lib-base
+SourceName: luci-lib-base
+Section: luci
+SourceDateEpoch: 1603744383
+Architecture: all
+Installed-Size: 12479
+Description:  basic libraries for luci

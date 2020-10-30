@@ -1,0 +1,18 @@
+
+config default 'default'
+	option limit_mac_enable '0'
+	option priority_enable '0'
+	option limit_enable '0'
+
+config priority
+	option protocol 'tcp'
+	option service 'ntp, dns, http, https, ssh, ftp'
+	option priority '-300'
+	option comment 'TCP'
+
+config priority
+	option protocol 'udp'
+	option priority '-400'
+	option service '*'
+	option comment 'UDP'
+

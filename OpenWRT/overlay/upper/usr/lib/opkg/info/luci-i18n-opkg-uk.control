@@ -1,0 +1,10 @@
+Package: luci-i18n-opkg-uk
+Version: git-20.300.73983-fc93fa6
+Depends: libc, luci-app-opkg
+Source: feeds/luci/applications/luci-app-opkg
+SourceName: luci-i18n-opkg-uk
+Section: luci
+SourceDateEpoch: 1603744383
+Architecture: all
+Installed-Size: 2477
+Description:  Translation for luci-app-opkg - Українська (Ukrainian)

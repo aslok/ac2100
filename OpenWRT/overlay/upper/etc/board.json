@@ -1,0 +1,28 @@
+{
+	"model": {
+		"id": "xiaomi,redmi-router-ac2100",
+		"name": "Xiaomi Redmi Router AC2100"
+	},
+	"led": {
+		"wan": {
+			"name": "wan",
+			"sysfs": "white:wan",
+			"type": "netdev",
+			"device": "wan",
+			"mode": "link tx rx"
+		}
+	},
+	"network": {
+		"lan": {
+			"ifname": "lan1 lan2 lan3",
+			"protocol": "static"
+		},
+		"wan": {
+			"ifname": "wan",
+			"protocol": "dhcp"
+		}
+	},
+	"system": {
+		"compat_version": "1.1"
+	}
+}

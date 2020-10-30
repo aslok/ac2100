@@ -1,0 +1,10 @@
+Package: luci-i18n-samba4-uk
+Version: git-20.300.73983-fc93fa6
+Depends: libc, luci-app-samba4
+Source: feeds/luci/applications/luci-app-samba4
+SourceName: luci-i18n-samba4-uk
+Section: luci
+SourceDateEpoch: 1603744383
+Architecture: all
+Installed-Size: 1844
+Description:  Translation for luci-app-samba4 - Українська (Ukrainian)

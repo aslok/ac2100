@@ -1,0 +1,8 @@
+
+config samba
+	option workgroup 'WORKGROUP'
+	option charset 'UTF-8'
+	option allow_legacy_protocols '1'
+	option description 'Samba on wifi3r'
+	option interface 'lan'
+

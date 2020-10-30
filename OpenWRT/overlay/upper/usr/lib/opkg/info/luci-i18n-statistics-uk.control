@@ -1,0 +1,10 @@
+Package: luci-i18n-statistics-uk
+Version: git-20.300.73983-fc93fa6
+Depends: libc, luci-app-statistics
+Source: feeds/luci/applications/luci-app-statistics
+SourceName: luci-i18n-statistics-uk
+Section: luci
+SourceDateEpoch: 1603744383
+Architecture: all
+Installed-Size: 1719
+Description:  Translation for luci-app-statistics - Українська (Ukrainian)

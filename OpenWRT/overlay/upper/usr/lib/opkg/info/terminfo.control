@@ -1,0 +1,12 @@
+Package: terminfo
+Version: 6.2-1
+Depends: libc
+Source: feeds/base/package/libs/ncurses
+SourceName: terminfo
+License: MIT
+LicenseFiles: README
+Section: libs
+SourceDateEpoch: 1603752488
+Architecture: mipsel_24kc
+Installed-Size: 6285
+Description:  Terminal Info Database (ncurses)

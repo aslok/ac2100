@@ -1,0 +1,12 @@
+Package: luci-i18n-ddns-uk
+Version: git-20.300.73983-fc93fa6
+Depends: libc, luci-app-ddns
+Source: feeds/luci/applications/luci-app-ddns
+SourceName: luci-i18n-ddns-uk
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1603744383
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 1504
+Description:  Translation for luci-app-ddns - Українська (Ukrainian)

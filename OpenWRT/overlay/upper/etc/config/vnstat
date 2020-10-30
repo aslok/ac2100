@@ -1,0 +1,7 @@
+
+config vnstat
+	list interface 'wan'
+	list interface 'wlan0'
+	list interface 'wlan1'
+	list interface 'wlan0-1'
+

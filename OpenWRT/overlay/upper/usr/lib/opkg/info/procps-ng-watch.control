@@ -1,0 +1,13 @@
+Package: procps-ng-watch
+Version: 3.3.16-2
+Depends: libc, procps-ng
+Alternatives: 200:/bin/watch:/bin/procps-ng-watch
+Source: feeds/packages/utils/procps-ng
+SourceName: procps-ng-watch
+License: GPL-2.0-or-later
+LicenseFiles: COPYING COPYING.LIB
+Section: utils
+SourceDateEpoch: 1603932588
+Architecture: mipsel_24kc
+Installed-Size: 6883
+Description:  Installs the applet watch.

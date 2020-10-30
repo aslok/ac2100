@@ -1,0 +1,11 @@
+Package: luci-app-qos
+Version: git-20.302.26354-bb62854
+Depends: libc, luci-compat, qos-scripts
+Source: feeds/luci/applications/luci-app-qos
+SourceName: luci-app-qos
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1603869554
+Architecture: all
+Installed-Size: 1528
+Description:  Quality of Service configuration module

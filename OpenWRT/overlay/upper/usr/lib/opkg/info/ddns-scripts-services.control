@@ -1,0 +1,11 @@
+Package: ddns-scripts-services
+Version: 2.8.2-3
+Depends: libc
+Source: feeds/packages/net/ddns-scripts
+SourceName: ddns-scripts-services
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1603765990
+Architecture: all
+Installed-Size: 4075
+Description:  Dynamic DNS Client definitions for supported services

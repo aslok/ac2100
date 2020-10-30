@@ -1,0 +1,13 @@
+Package: libcap-ng
+Version: 0.8-1
+Depends: libc
+Source: feeds/packages/libs/libcap-ng
+SourceName: libcap-ng
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1603765990
+Maintainer: Lucian CRISTIAN <lucian.cristian@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 6832
+Description:  POSIX capabilities library library

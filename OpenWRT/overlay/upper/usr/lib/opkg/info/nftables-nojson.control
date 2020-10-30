@@ -1,0 +1,12 @@
+Package: nftables-nojson
+Version: 0.9.6-2
+Depends: libc, kmod-nft-core, libnftnl12
+Provides: nftables
+Source: feeds/base/package/network/utils/nftables
+SourceName: nftables-nojson
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1603752488
+Architecture: mipsel_24kc
+Installed-Size: 190658
+Description:  nftables userspace utility no JSON support

@@ -1,0 +1,11 @@
+Package: kmod-ledtrig-heartbeat
+Version: 5.4.72-1
+Depends: kernel (=5.4.72-1-581e3be1bf0df812542bd1683dc1ef03)
+Source: package/kernel/linux
+SourceName: kmod-ledtrig-heartbeat
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1602431102
+Architecture: mipsel_24kc
+Installed-Size: 1972
+Description:  Kernel module that allows LEDs to blink like heart beat

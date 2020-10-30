@@ -1,0 +1,119 @@
+
+config classify
+	option target 'Z'
+	option srchost '192.168.2.0/24'
+
+config classify
+	option target 'Z'
+	option dsthost '192.168.2.0/24'
+
+config classify
+	option target 'C'
+	option srchost '192.168.1.3'
+
+config classify
+	option target 'C'
+	option dsthost '192.168.1.3'
+
+config classify
+	option target 'D'
+	option srchost '192.168.1.5'
+
+config classify
+	option target 'D'
+	option dsthost '192.168.1.5'
+
+config classify
+	option target 'E'
+	option srchost '192.168.1.10'
+
+config classify
+	option target 'E'
+	option dsthost '192.168.1.10'
+
+config classify
+	option target 'F'
+	option srchost '192.168.1.11'
+
+config classify
+	option target 'F'
+	option dsthost '192.168.1.11'
+
+config classify
+	option target 'B'
+	option srchost '192.168.1.12'
+
+config classify
+	option target 'B'
+	option dsthost '192.168.1.12'
+
+config classify
+	option target 'C'
+	option srchost '192.168.1.13'
+
+config classify
+	option target 'C'
+	option dsthost '192.168.1.13'
+
+config classify
+	option target 'C'
+	option srchost '192.168.1.17'
+
+config classify
+	option target 'C'
+	option dsthost '192.168.1.17'
+
+config classify
+	option target 'A'
+	option srchost '192.168.1.18'
+
+config classify
+	option target 'A'
+	option dsthost '192.168.1.18'
+
+config classify
+	option target 'C'
+	option srchost '192.168.1.19'
+
+config classify
+	option target 'C'
+	option dsthost '192.168.1.19'
+
+config interface 'wan'
+	option classgroup 'Default'
+	option enabled '1'
+	option download '5120'
+	option upload '2048'
+	option overhead '1'
+
+config classgroup 'Default'
+	option classes 'A B C D E F G Y Z'
+	option default 'Y'
+
+config class 'A'
+	option priority '30'
+
+config class 'B'
+	option priority '29'
+
+config class 'C'
+	option priority '28'
+
+config class 'D'
+	option priority '27'
+
+config class 'E'
+	option priority '26'
+
+config class 'F'
+	option priority '25'
+
+config class 'G'
+	option priority '24'
+
+config class 'Y'
+	option priority '2'
+
+config class 'Z'
+	option priority '1'
+

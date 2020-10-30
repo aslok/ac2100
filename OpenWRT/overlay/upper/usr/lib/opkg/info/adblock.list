@@ -1,0 +1,8 @@
+/etc/adblock/adblock.sources.gz
+/etc/adblock/adblock.monitor
+/etc/config/adblock
+/etc/adblock/adblock.whitelist
+/etc/adblock/adblock.blacklist
+/etc/init.d/adblock
+/etc/adblock/adblock.mail
+/usr/bin/adblock.sh

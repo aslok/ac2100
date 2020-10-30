@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+BACK=`pwd`
+cd "$(dirname "$0")"
+rsync --progress --delete -avzzhx -e ssh root@wifi3r:/overlay .
+cd "$BACK"
