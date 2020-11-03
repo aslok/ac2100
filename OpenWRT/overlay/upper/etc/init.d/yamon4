@@ -1,0 +1,19 @@
+#!/bin/sh /etc/rc.common
+START=99
+STOP=10
+start() {
+	# commands to launch application
+	sleep 0
+	/usr/share/YAMon4/start.sh 'reboot' &
+}
+stop() {
+	/usr/share/YAMon4/pause.sh
+	return 0
+}
+restart() {
+	/usr/share/YAMon4/start.sh 'reboot'
+	return 0
+}
+boot() {
+	start
+}

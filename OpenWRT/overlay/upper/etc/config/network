@@ -7,7 +7,6 @@ config interface 'loopback'
 
 config globals 'globals'
 	option packet_steering '1'
-	option ula_prefix 'fd6b:be29:3c1f::/48'
 
 config interface 'lan'
 	option type 'bridge'
@@ -15,9 +14,9 @@ config interface 'lan'
 	option proto 'static'
 	option ipaddr '192.168.1.1'
 	option netmask '255.255.255.0'
-	option ip6assign '60'
 	option igmp_snooping '1'
 	option stp '1'
+	option ip6assign '64'
 
 config interface 'wan'
 	option ifname 'wan'

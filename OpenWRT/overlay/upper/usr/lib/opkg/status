@@ -30,16 +30,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1603803489
 Auto-Installed: yes
 
-Package: luci-app-statistics
-Version: git-20.300.73983-fc93fa6
-Depends: libc, luci-base, luci-lib-jsonc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
-Status: install ok installed
-Architecture: all
-Conffiles:
- /etc/config/luci_statistics 01ba6c9a6917be9ed2ce5bf0fdeba0863887e06f699b2d3c85707fa6b7d72b8c
-Installed-Time: 1603803852
-Auto-Installed: yes
-
 Package: liblucihttp0
 Version: 2019-07-05-a34a17d5-1
 Depends: libc
@@ -88,6 +78,14 @@ Status: install hold installed
 Essential: yes
 Architecture: mipsel_24kc
 Installed-Time: 1603676162
+Auto-Installed: yes
+
+Package: luci-app-nlbwmon
+Version: git-20.303.33604-f193364
+Depends: libc, luci-compat, nlbwmon
+Status: install ok installed
+Architecture: all
+Installed-Time: 1604061440
 Auto-Installed: yes
 
 Package: avahi-dbus-daemon
@@ -547,6 +545,17 @@ Architecture: mipsel_24kc
 Installed-Time: 1603803381
 Auto-Installed: yes
 
+Package: nlbwmon
+Version: 2020-04-11.1-34a18876-3
+Depends: libc, libubox20191228, libnl-tiny, zlib, kmod-nf-conntrack-netlink
+Status: install ok installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/config/nlbwmon 99f9a73ce6f2865f6aa3f04d3a59e538cbf6bdbe1d63a1b89c26c6d767994244
+ /usr/share/nlbwmon/protocols 8cea093db1a8a29e4264f27c1827ef36c6111e9ea876485f7eb36a07aa3d0450
+Installed-Time: 1604061436
+Auto-Installed: yes
+
 Package: kmod-ledtrig-heartbeat
 Version: 5.4.72-1
 Depends: kernel (= 5.4.72-1-581e3be1bf0df812542bd1683dc1ef03)
@@ -594,6 +603,16 @@ Provides: libelf, libelf1-1
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603878954
+Auto-Installed: yes
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/config/etherwake 96ceb2e8389056a00013f49118ee2edbfc5b147c8a2b3fa886710df8c31f7ec0
+Installed-Time: 1604062135
 Auto-Installed: yes
 
 Package: luci-mod-status
@@ -662,14 +681,6 @@ Conffiles:
 Installed-Time: 1603803282
 Auto-Installed: yes
 
-Package: collectd-mod-interface
-Version: 5.12.0-1
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803841
-Auto-Installed: yes
-
 Package: firewall
 Version: 2020-09-05-8c2f9fad-1
 Depends: libc, libubox20191228, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
@@ -727,14 +738,6 @@ Provides: libmnl
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803481
-Auto-Installed: yes
-
-Package: collectd-mod-network
-Version: 5.12.0-1
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803848
 Auto-Installed: yes
 
 Package: libgnutls
@@ -829,6 +832,13 @@ Depends: libc, luci-base
 Status: install user installed
 Architecture: all
 Installed-Time: 1603803245
+
+Package: luci-i18n-nlbwmon-uk
+Version: git-20.303.33604-f193364
+Depends: libc, luci-app-nlbwmon
+Status: install user installed
+Architecture: all
+Installed-Time: 1604061440
 
 Package: iptables-mod-ipopt
 Version: 1.8.4-1
@@ -1072,6 +1082,13 @@ Conffiles:
 Installed-Time: 1603803245
 Auto-Installed: yes
 
+Package: luci-app-commands
+Version: git-20.306.62653-4e86204
+Depends: libc, luci-compat
+Status: install user installed
+Architecture: all
+Installed-Time: 1604311288
+
 Package: libnettle7
 Version: 3.5.1-2
 Depends: libc, libgmp10
@@ -1079,14 +1096,6 @@ Provides: libnettle
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803350
-Auto-Installed: yes
-
-Package: luci-app-commands
-Version: git-20.300.73983-fc93fa6
-Depends: libc, luci-compat
-Status: install ok installed
-Architecture: all
-Installed-Time: 1603803255
 Auto-Installed: yes
 
 Package: kmod-leds-gpio
@@ -1167,27 +1176,12 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1603969783
 
-Package: collectd-mod-iwinfo
-Version: 5.12.0-1
-Depends: libc, collectd, libiwinfo20200105
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803830
-Auto-Installed: yes
-
 Package: libjson-script
 Version: 2020-08-06-9e52171d-1
 Depends: libc, libubox20191228
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1603676162
-
-Package: luci-i18n-statistics-uk
-Version: git-20.300.73983-fc93fa6
-Depends: libc, luci-app-statistics
-Status: install user installed
-Architecture: all
-Installed-Time: 1603803852
 
 Package: luci-proto-ipv6
 Version: git-20.300.73983-fc93fa6
@@ -1228,6 +1222,14 @@ Provides: lede-keyring
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1603676162
+Auto-Installed: yes
+
+Package: kmod-nf-conntrack-netlink
+Version: 5.4.72-1
+Depends: kernel (= 5.4.72-1-581e3be1bf0df812542bd1683dc1ef03), kmod-nfnetlink, kmod-ipt-conntrack
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1604061433
 Auto-Installed: yes
 
 Package: darkstat
@@ -1293,20 +1295,19 @@ Architecture: mipsel_24kc
 Installed-Time: 1603847593
 Auto-Installed: yes
 
+Package: luci-app-wol
+Version: git-20.303.33604-f193364
+Depends: libc, etherwake
+Status: install user installed
+Architecture: all
+Installed-Time: 1604062135
+
 Package: luci-app-samba4
 Version: git-20.300.73983-fc93fa6
 Depends: libc, samba4-server
 Status: install ok installed
 Architecture: all
 Installed-Time: 1603803459
-Auto-Installed: yes
-
-Package: collectd-mod-load
-Version: 5.12.0-1
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803845
 Auto-Installed: yes
 
 Package: luci-app-upnp
@@ -1438,14 +1439,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1603803214
 Auto-Installed: yes
 
-Package: collectd-mod-rrdtool
-Version: 5.12.0-1
-Depends: libc, collectd, librrd1
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803827
-Auto-Installed: yes
-
 Package: ca-bundle
 Version: 20200601-1
 Depends: libc
@@ -1491,14 +1484,6 @@ Depends: libc, liblua5.1.5, libjson-c5
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803202
-Auto-Installed: yes
-
-Package: collectd-mod-memory
-Version: 5.12.0-1
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803838
 Auto-Installed: yes
 
 Package: kmod-ipt-ipopt
@@ -1750,14 +1735,6 @@ Provides: libpopt
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803339
-Auto-Installed: yes
-
-Package: collectd-mod-cpu
-Version: 5.12.0-1
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1603803834
 Auto-Installed: yes
 
 Package: kmod-ipt-offload

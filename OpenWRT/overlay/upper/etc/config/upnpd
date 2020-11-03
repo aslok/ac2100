@@ -6,8 +6,11 @@ config upnpd 'config'
 	option port '5000'
 	option upnp_lease_file '/var/run/miniupnpd.leases'
 	option igdv1 '1'
-	option enabled '1'
 	option uuid '520db434-56f3-4f10-930c-a9408981ca1a'
+	option log_output '1'
+	option enabled '0'
+	option enable_upnp '0'
+	option enable_natpmp '0'
 
 config perm_rule
 	option action 'allow'

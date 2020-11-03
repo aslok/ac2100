@@ -1,7 +1,6 @@
 
 config adblock 'global'
 	option adb_enabled '1'
-	option adb_debug '1'
 	option adb_safesearch '0'
 	option adb_dnsfilereset '0'
 	option adb_mail '0'
@@ -15,4 +14,5 @@ config adblock 'global'
 	list adb_sources 'schakal'
 	option adb_backup '1'
 	option adb_backupdir '/etc/adblock/'
+	option adb_debug '0'
 
