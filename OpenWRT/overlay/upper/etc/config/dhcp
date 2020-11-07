@@ -194,3 +194,9 @@ config domain
 	option name 'connectivitycheck.gstatic.com'
 	option ip '66.102.1.94'
 
+config host
+	option name 'mitv'
+	option dns '1'
+	option mac 'EC:9C:32:6C:5B:F7'
+	option ip '192.168.1.20'
+
