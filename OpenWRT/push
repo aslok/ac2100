@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+BACK=`pwd`
+cd "$(dirname "$0")"
+TARGET=`echo "$@" | sed -e 's/overlay\/upper\///'`
+rsync --progress --delete -avzzhx -e ssh "$@" root@wifi3r:/"$TARGET"
+cd "$BACK"

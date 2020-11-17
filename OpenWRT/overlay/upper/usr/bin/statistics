@@ -4,4 +4,4 @@ DATA=$(tc -p -s -d  qdisc show dev ifb0 | grep -v Sent\ 0 | grep Sent -B1 | tail
 
 SORTED=$(echo $DATA | sed "s/ -- /\n/g" | awk '{print $1 "\t" int($2 / (1024 * 1024)) "MB"}' | sort)
 
-echo "$SORTED" | sed -e "s/1:10/hp3r\t\t/" -e "s/1:20/t95q\t\t/" -e "s/1:30/tan4ik-nb bv7k 4a3r/" -e "s/1:40/nas3r\t\t/" -e "s/1:50/3r\t\t/"  -e "s/1:60/tan4ik-pc\t\t/" -e "s/1:80/bv5k5 a3 mipad\t/" -e "s/1:90/Guests\t\t/"
+echo "$SORTED" | sed -e "s/1:10/hp3r\t\t/" -e "s/1:20/sh3r t95q\t/" -e "s/1:30/tan4ik-nb bv7k 4a3r mi/" -e "s/1:40/nas3r\t\t/" -e "s/1:50/3r\t\t/"  -e "s/1:60/tan4ik-pc\t\t/" -e "s/1:80/bv5k5 a3 mipad\t/" -e "s/1:90/Guests\t\t/"

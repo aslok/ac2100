@@ -1082,13 +1082,6 @@ Conffiles:
 Installed-Time: 1603803245
 Auto-Installed: yes
 
-Package: luci-app-commands
-Version: git-20.306.62653-4e86204
-Depends: libc, luci-compat
-Status: install user installed
-Architecture: all
-Installed-Time: 1604311288
-
 Package: libnettle7
 Version: 3.5.1-2
 Depends: libc, libgmp10
@@ -1097,6 +1090,13 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803350
 Auto-Installed: yes
+
+Package: luci-app-commands
+Version: git-20.306.62653-4e86204
+Depends: libc, luci-compat
+Status: install user installed
+Architecture: all
+Installed-Time: 1604311288
 
 Package: kmod-leds-gpio
 Version: 5.4.72-1
@@ -1736,6 +1736,13 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1603803339
 Auto-Installed: yes
+
+Package: wireless-tools
+Version: 29-6
+Depends: libc
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1604750004
 
 Package: kmod-ipt-offload
 Version: 5.4.72-1

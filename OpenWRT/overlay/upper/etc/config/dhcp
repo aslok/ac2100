@@ -13,7 +13,10 @@ config dnsmasq
 	option domain 'wifi3r'
 	option local '/local/'
 	option quietdhcp '1'
-	option cachesize '10000'
+	option enable_tftp '1'
+	option tftp_root '/srv/tftp/'
+	option dhcp_boot '/arch/boot/syslinux/lpxelinux.0'
+	option cachesize '5000'
 
 config dhcp 'lan'
 	option interface 'lan'
@@ -199,4 +202,16 @@ config host
 	option dns '1'
 	option mac 'EC:9C:32:6C:5B:F7'
 	option ip '192.168.1.20'
+
+config host
+	option dns '1'
+	option mac '80:3F:5D:D3:7F:F2'
+	option ip '192.168.1.4'
+	option name 'wav3r'
+
+config host
+	option name 'sh3r'
+	option dns '1'
+	option mac '48:B0:2D:13:7B:5A'
+	option ip '192.168.1.21'
 

@@ -34,3 +34,4 @@
 9=srchost
 10=dsthost
 11=$START
+12=psk

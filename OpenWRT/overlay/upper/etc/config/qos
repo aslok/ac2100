@@ -117,3 +117,11 @@ config class 'Y'
 config class 'Z'
 	option priority '1'
 
+config classify
+	option target 'B'
+	option srchost '192.168.1.21'
+
+config classify
+	option target 'B'
+	option dsthost '192.168.1.21'
+
