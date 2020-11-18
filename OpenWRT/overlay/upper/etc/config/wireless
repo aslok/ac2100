@@ -38,6 +38,7 @@ config wifi-iface 'default_radio1'
 	option ssid 'wifi3r'
 	option disassoc_low_ack '0'
 	option encryption 'psk2+ccmp'
+	option hidden '1'
 
 config wifi-iface 'wifinet2'
 	option device 'radio0'

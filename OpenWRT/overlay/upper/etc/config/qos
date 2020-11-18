@@ -40,12 +40,12 @@ config classify
 	option dsthost '192.168.1.11'
 
 config classify
-	option target 'B'
-	option srchost '192.168.1.12'
+	option target 'C'
+	option srchost '192.168.1.4'
 
 config classify
-	option target 'B'
-	option dsthost '192.168.1.12'
+	option target 'C'
+	option dsthost '192.168.1.4'
 
 config classify
 	option target 'C'
