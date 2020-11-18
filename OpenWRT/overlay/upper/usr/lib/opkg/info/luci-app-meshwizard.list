@@ -1,0 +1,3 @@
+/usr/lib/lua/luci/model/cbi/freifunk/meshwizard.lua
+/usr/lib/lua/luci/controller/meshwizard.lua
+/etc/uci-defaults/meshwizard

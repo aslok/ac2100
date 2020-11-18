@@ -7,7 +7,7 @@ SourceName: libncurses
 License: MIT
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1603752488
+SourceDateEpoch: 1583437738
 Architecture: mipsel_24kc
-Installed-Size: 148799
+Installed-Size: 148801
 Description:  Terminal handling library (Unicode)

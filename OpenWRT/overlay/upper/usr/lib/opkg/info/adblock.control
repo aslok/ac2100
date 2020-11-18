@@ -1,14 +1,14 @@
 Package: adblock
-Version: 4.0.7-2
+Version: 4.0.7-3
 Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, ca-bundle, opkg
 Source: feeds/packages/net/adblock
 SourceName: adblock
 License: GPL-3.0-or-later
 Section: net
-SourceDateEpoch: 1603765990
+SourceDateEpoch: 1604429506
 Maintainer: Dirk Brenken <dev@brenken.org>
 Architecture: all
-Installed-Size: 17940
+Installed-Size: 17911
 Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named or kresd.
  The script supports many domain blacklist sites plus manual black- and whitelist overrides.
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.

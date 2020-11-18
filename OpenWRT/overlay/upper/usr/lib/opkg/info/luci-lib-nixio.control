@@ -1,11 +1,11 @@
 Package: luci-lib-nixio
-Version: git-20.300.73983-fc93fa6
+Version: git-20.234.06894-c4a4e43
 Depends: libc, liblua5.1.5
 Source: feeds/luci/libs/luci-lib-nixio
 SourceName: luci-lib-nixio
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1603744383
+SourceDateEpoch: 1597974894
 Architecture: mipsel_24kc
-Installed-Size: 27729
+Installed-Size: 27727
 Description:  NIXIO POSIX library

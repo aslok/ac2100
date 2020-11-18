@@ -7,7 +7,7 @@ SourceName: libuuid
 License: GPL-2.0
 LicenseFiles: COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
-SourceDateEpoch: 1603752488
+SourceDateEpoch: 1599427152
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: mipsel_24kc
 Installed-Size: 12402

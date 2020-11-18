@@ -1,0 +1,10 @@
+Package: luci-i18n-ntpc-uk
+Version: git-20.322.51552-4dc1fab
+Depends: libc, luci-app-ntpc
+Source: feeds/luci/applications/luci-app-ntpc
+SourceName: luci-i18n-ntpc-uk
+Section: luci
+SourceDateEpoch: 1605622752
+Architecture: all
+Installed-Size: 842
+Description:  Translation for luci-app-ntpc - Українська (Ukrainian)

@@ -1,13 +1,13 @@
 Package: tc
-Version: 5.8.0-1
+Version: 5.9.0-1
 Depends: libc, kmod-sched-core, libxtables12, libelf1, libmnl0
 Source: feeds/base/package/network/utils/iproute2
 SourceName: tc
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1603802409
+SourceDateEpoch: 1605342288
 CPE-ID: cpe:/a:iproute2_project:iproute2
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: mipsel_24kc
-Installed-Size: 146737
+Installed-Size: 147443
 Description:  Traffic control utility

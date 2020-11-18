@@ -1,11 +1,11 @@
 Package: luci-base
-Version: git-20.300.73983-fc93fa6
+Version: git-20.311.85590-5c5b134
 Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua, luci-lib-base, rpcd-mod-file, rpcd-mod-luci, cgi-io
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1603744383
+SourceDateEpoch: 1605622752
 Architecture: mipsel_24kc
-Installed-Size: 126917
+Installed-Size: 126918
 Description:  LuCI core libraries

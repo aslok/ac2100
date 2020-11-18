@@ -6,11 +6,11 @@ SourceName: bash
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1603765990
+SourceDateEpoch: 1588106304
 CPE-ID: cpe:/a:gnu:bash
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: mipsel_24kc
-Installed-Size: 268635
+Installed-Size: 268630
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).

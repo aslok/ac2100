@@ -133,12 +133,6 @@ config rule
 config include
 	option path '/etc/firewall.user'
 
-config include 'miniupnpd'
-	option type 'script'
-	option path '/usr/share/miniupnpd/firewall.include'
-	option family 'any'
-	option reload '1'
-
 config redirect 'adblock_dns_53'
 	option name 'Adblock DNS, port 53'
 	option src 'lan'
@@ -186,4 +180,10 @@ config rule
 	option src 'guest'
 	option target 'ACCEPT'
 	option dest_port '67-68'
+
+config include 'miniupnpd'
+	option type 'script'
+	option path '/usr/share/miniupnpd/firewall.include'
+	option family 'any'
+	option reload '1'
 

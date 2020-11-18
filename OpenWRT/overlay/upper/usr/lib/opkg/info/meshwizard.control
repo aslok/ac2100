@@ -1,0 +1,10 @@
+Package: meshwizard
+Version: 0.3.3
+Depends: libc, firewall
+Source: feeds/freifunk/contrib/package/meshwizard
+SourceName: meshwizard
+Section: luci
+SourceDateEpoch: 1540497366
+Architecture: mipsel_24kc
+Installed-Size: 13239
+Description:  A shellscript based wizard to simplify the setup of a typical mesh node (e.g. for Freifunk.net)

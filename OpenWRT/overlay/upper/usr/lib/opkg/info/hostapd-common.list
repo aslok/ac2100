@@ -1,0 +1,3 @@
+/lib/netifd/hostapd.sh
+/etc/init.d/wpad
+/etc/rc.button/wps

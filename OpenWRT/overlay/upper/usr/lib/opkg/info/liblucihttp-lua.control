@@ -6,7 +6,7 @@ SourceName: liblucihttp-lua
 License: ISC
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1603744383
+SourceDateEpoch: 1562308067
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 3461

@@ -1,11 +1,11 @@
 Package: luci-mod-status
-Version: git-20.300.73983-fc93fa6
+Version: git-20.304.74791-ef94c52
 Depends: libc, luci-base, libiwinfo20200105, libiwinfo-lua
 Source: feeds/luci/modules/luci-mod-status
 SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1603744383
+SourceDateEpoch: 1604090791
 Architecture: mipsel_24kc
-Installed-Size: 24710
+Installed-Size: 25831
 Description:  LuCI Status Pages

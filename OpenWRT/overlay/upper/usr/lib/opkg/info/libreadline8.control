@@ -7,10 +7,10 @@ SourceName: libreadline
 License: GPL-3.0
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1603752488
+SourceDateEpoch: 1584724138
 CPE-ID: cpe:/a:gnu:readline
 Architecture: mipsel_24kc
-Installed-Size: 106235
+Installed-Size: 106234
 Description:  The Readline library provides a set of functions for use by applications
  that allow users to edit command lines as they are typed in. Both Emacs
  and vi editing modes are available. The Readline library includes

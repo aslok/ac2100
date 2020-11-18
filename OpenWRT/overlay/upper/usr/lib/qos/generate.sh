@@ -2,7 +2,6 @@
 [ -e /lib/functions.sh ] && . /lib/functions.sh || . ./functions.sh
 [ -x /sbin/modprobe ] && {
 	insmod="modprobe"
-	#rmmod="$insmod -r"
 	rmmod="rmmod"
 } || {
 	insmod="insmod"

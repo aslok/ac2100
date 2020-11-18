@@ -5,7 +5,7 @@ Source: feeds/base/package/network/services/uhttpd
 SourceName: uhttpd-mod-ubus
 License: ISC
 Section: net
-SourceDateEpoch: 1603752488
+SourceDateEpoch: 1604919269
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 7676

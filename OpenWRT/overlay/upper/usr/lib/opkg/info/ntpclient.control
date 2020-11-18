@@ -1,0 +1,12 @@
+Package: ntpclient
+Version: 2015_365-4
+Depends: libc, librt
+Source: feeds/packages/net/ntpclient
+SourceName: ntpclient
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1586659964
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mipsel_24kc
+Installed-Size: 11252
+Description:  NTP client for setting system time from NTP servers.

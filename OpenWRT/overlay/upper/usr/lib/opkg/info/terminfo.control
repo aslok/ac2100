@@ -6,7 +6,7 @@ SourceName: terminfo
 License: MIT
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1603752488
+SourceDateEpoch: 1583437738
 Architecture: mipsel_24kc
-Installed-Size: 6285
+Installed-Size: 6289
 Description:  Terminal Info Database (ncurses)

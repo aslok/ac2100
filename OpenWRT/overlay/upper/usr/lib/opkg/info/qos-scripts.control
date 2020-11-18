@@ -5,10 +5,10 @@ Source: feeds/base/package/network/config/qos-scripts
 SourceName: qos-scripts
 License: GPL-2.0
 Section: utils
-SourceDateEpoch: 1603851925
+SourceDateEpoch: 1596444155
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: all
-Installed-Size: 6367
+Installed-Size: 6366
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.

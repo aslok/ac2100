@@ -1,0 +1,10 @@
+Package: luci-app-attendedsysupgrade
+Version: git-20.148.83690-a32e0f4
+Depends: libc, luci-base, uhttpd-mod-ubus, attendedsysupgrade-common, cgi-io
+Source: feeds/luci/applications/luci-app-attendedsysupgrade
+SourceName: luci-app-attendedsysupgrade
+Section: luci
+SourceDateEpoch: 1605622752
+Architecture: all
+Installed-Size: 5693
+Description:  LuCI support for attended sysupgrades

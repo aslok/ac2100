@@ -1,0 +1,10 @@
+Package: luci-i18n-attendedsysupgrade-uk
+Version: git-20.322.51552-4dc1fab
+Depends: libc, luci-app-attendedsysupgrade
+Source: feeds/luci/applications/luci-app-attendedsysupgrade
+SourceName: luci-i18n-attendedsysupgrade-uk
+Section: luci
+SourceDateEpoch: 1605622752
+Architecture: all
+Installed-Size: 509
+Description:  Translation for luci-app-attendedsysupgrade - Українська (Ukrainian)
