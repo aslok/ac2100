@@ -1,0 +1,3 @@
+/etc/modules.d/09-crypto-des
+/lib/modules/5.4.77/des_generic.ko
+/lib/modules/5.4.77/libdes.ko

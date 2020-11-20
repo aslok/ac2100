@@ -1,0 +1,11 @@
+Package: kmod-nfnetlink
+Version: 5.4.77-1
+Depends: kernel (=5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
+Source: package/kernel/linux
+SourceName: kmod-nfnetlink
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1605531305
+Architecture: mipsel_24kc
+Installed-Size: 4272
+Description:  Kernel modules support for a netlink-based userspace interface

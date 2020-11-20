@@ -5,7 +5,7 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1605622752
+SourceDateEpoch: 1605805027
 Architecture: mipsel_24kc
-Installed-Size: 126918
+Installed-Size: 126931
 Description:  LuCI core libraries

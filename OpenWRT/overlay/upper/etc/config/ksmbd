@@ -1,0 +1,7 @@
+
+config globals
+	option workgroup 'WORKGROUP'
+	option interface 'lan'
+	option description 'wifi3r server'
+	option allow_legacy_protocols '1'
+

@@ -1,0 +1,2 @@
+/etc/modules.d/50-ledtrig-activity
+/lib/modules/5.4.77/ledtrig-activity.ko

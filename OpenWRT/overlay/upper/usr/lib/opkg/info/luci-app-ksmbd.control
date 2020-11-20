@@ -1,0 +1,10 @@
+Package: luci-app-ksmbd
+Version: git-20.108.38431-8f34e10
+Depends: libc, ksmbd-server
+Source: feeds/luci/applications/luci-app-ksmbd
+SourceName: luci-app-ksmbd
+Section: luci
+SourceDateEpoch: 1605805027
+Architecture: all
+Installed-Size: 1906
+Description:  Network Shares - Ksmbd the SMB kernel fileserver

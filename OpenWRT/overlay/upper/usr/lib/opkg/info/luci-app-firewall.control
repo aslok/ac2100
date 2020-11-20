@@ -5,7 +5,7 @@ Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1605622752
+SourceDateEpoch: 1605805027
 Architecture: all
-Installed-Size: 13802
+Installed-Size: 13796
 Description:  Firewall and Portforwarding application
