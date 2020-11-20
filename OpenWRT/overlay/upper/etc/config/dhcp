@@ -16,7 +16,8 @@ config dnsmasq
 	option enable_tftp '1'
 	option tftp_root '/srv/tftp/'
 	option dhcp_boot '/arch/boot/syslinux/lpxelinux.0'
-	option cachesize '5000'
+	option strictorder '1'
+	option cachesize '10000'
 
 config dhcp 'lan'
 	option interface 'lan'
