@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 BACK=`pwd`
 cd "$(dirname "$0")"
-rsync --progress --delete -avzzhx -e ssh root@wifi3r:/overlay .
+ssh wifi3r 'opkg list-installed > /etc/opkg/installed'
+rsync --progress --delete -avzzhx -e ssh wifi3r:/overlay .
 cd "$BACK"
