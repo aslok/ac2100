@@ -31,7 +31,6 @@ config dhcp 'lan'
 	option ra 'server'
 	option dhcpv6 'server'
 	option ra_management '1'
-	option ra_default '1'
 
 config dhcp 'wan'
 	option interface 'wan'
@@ -192,7 +191,6 @@ config dhcp 'guest'
 	option ra 'server'
 	option dhcpv6 'server'
 	option ra_management '1'
-	option ra_default '1'
 
 config domain
 	option name 'connectivitycheck.gstatic.com'
