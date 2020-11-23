@@ -657,6 +657,13 @@ Architecture: mipsel_24kc
 Installed-Time: 1605878045
 Auto-Installed: yes
 
+Package: netperf
+Version: 2.7.0-2
+Depends: libc
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605984745
+
 Package: miniupnpd
 Version: 2.1.20200510-5
 Depends: libc, iptables, libip4tc2, libip6tc2, ip6tables, libuuid1, libcap-ng

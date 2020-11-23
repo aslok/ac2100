@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+BACK=`pwd`
+cd "$(dirname "$0")"
+ssh wifi3r 'statistics'
+cd "$BACK"
