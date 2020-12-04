@@ -218,13 +218,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605876297
 
-Package: luci-i18n-ntpc-uk
-Version: git-20.322.51552-4dc1fab
-Depends: libc, luci-app-ntpc
-Status: install user installed
-Architecture: all
-Installed-Time: 1605876432
-
 Package: kmod-crypto-hash
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
@@ -384,6 +377,14 @@ Status: install user installed
 Architecture: all
 Installed-Time: 1605876443
 
+Package: libcap
+Version: 2.43-1
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1607076041
+Auto-Installed: yes
+
 Package: libcap-ng
 Version: 0.8-1
 Depends: libc
@@ -458,6 +459,15 @@ Depends: libc, firewall
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605876387
+Auto-Installed: yes
+
+Package: libevent2-pthreads7
+Version: 2.1.11-2
+Depends: libc, libpthread, libevent2-core7
+Provides: libevent2-pthreads
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1607076047
 Auto-Installed: yes
 
 Package: kmod-mt7615e
@@ -535,20 +545,20 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 
-Package: kmod-crypto-sha256
-Version: 5.4.77-1
-Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1605877843
-Auto-Installed: yes
-
 Package: kmod-crypto-hmac
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash, kmod-crypto-manager
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1605877829
+Auto-Installed: yes
+
+Package: kmod-crypto-sha256
+Version: 5.4.77-1
+Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1605877843
 Auto-Installed: yes
 
 Package: kmod-ledtrig-heartbeat
@@ -606,6 +616,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1605876336
 Auto-Installed: yes
 
+Package: libiwinfo20200105
+Version: 2020-06-03-2faa20e5-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
+Provides: libiwinfo
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605836143
+
 Package: libxtables12
 Version: 1.8.4-1
 Depends: libc
@@ -614,14 +632,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 Auto-Installed: yes
-
-Package: libiwinfo20200105
-Version: 2020-06-03-2faa20e5-1
-Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
-Provides: libiwinfo
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1605836143
 
 Package: ksmbd-server
 Version: 3.2.6-1
@@ -657,13 +667,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1605878045
 Auto-Installed: yes
 
-Package: netperf
-Version: 2.7.0-2
-Depends: libc
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1605984745
-
 Package: miniupnpd
 Version: 2.1.20200510-5
 Depends: libc, iptables, libip4tc2, libip6tc2, ip6tables, libuuid1, libcap-ng
@@ -674,6 +677,13 @@ Conffiles:
 Installed-Time: 1605876408
 Auto-Installed: yes
 
+Package: netperf
+Version: 2.7.0-2
+Depends: libc
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605984745
+
 Package: firewall
 Version: 2020-09-05-8c2f9fad-1
 Depends: libc, libubox20191228, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
@@ -683,13 +693,6 @@ Conffiles:
  /etc/config/firewall de732cfb093ff5b51c2877db734651b513f2fb920d28881bf0e2ba9bbc0d5f80
  /etc/firewall.user bd68324966481011f5e36570258ad97dd422655c16f3119d48325ed8459de510
 Installed-Time: 1605836143
-
-Package: luci-app-ntpc
-Version: git-20.108.38431-8f34e10
-Depends: libc, luci-compat, ntpclient
-Status: install user installed
-Architecture: all
-Installed-Time: 1605876393
 
 Package: luci-app-firewall
 Version: git-20.275.75166-43dc420
@@ -1053,6 +1056,15 @@ Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-cfg80211, ho
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
+Auto-Installed: yes
+
+Package: libopenssl1.1
+Version: 1.1.1h-1
+Depends: libc
+Provides: libopenssl
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1607076038
 Auto-Installed: yes
 
 Package: rsync
@@ -1531,6 +1543,13 @@ Architecture: mipsel_24kc
 Installed-Time: 1605877808
 Auto-Installed: yes
 
+Package: ntp-utils
+Version: 4.2.8p15-3
+Depends: libc, libopenssl1.1, libpthread, libcap, libevent2-pthreads7
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607076048
+
 Package: uhttpd-mod-ubus
 Version: 2020-10-04-14a3cb42-2
 Depends: libc, uhttpd, libubus20191227, libblobmsg-json
@@ -1649,13 +1668,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 
-Package: kmod-ipt-nat
-Version: 5.4.77-1
-Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-ipt-core, kmod-nf-nat
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1605836143
-
 Package: kmod-sched-core
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
@@ -1663,6 +1675,20 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605876271
 Auto-Installed: yes
+
+Package: kmod-ipt-nat
+Version: 5.4.77-1
+Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-ipt-core, kmod-nf-nat
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605836143
+
+Package: kmod-ledtrig-netdev
+Version: 5.4.77-1
+Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605876262
 
 Package: libnl-genl200
 Version: 3.5.0-1
@@ -1673,10 +1699,12 @@ Architecture: mipsel_24kc
 Installed-Time: 1605878070
 Auto-Installed: yes
 
-Package: kmod-ledtrig-netdev
-Version: 5.4.77-1
-Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
-Status: install user installed
+Package: libevent2-core7
+Version: 2.1.11-2
+Depends: libc
+Provides: libevent2-core
+Status: install ok installed
 Architecture: mipsel_24kc
-Installed-Time: 1605876262
+Installed-Time: 1607076044
+Auto-Installed: yes
 

@@ -98,8 +98,11 @@ kmod-slhc - 5.4.77-1
 ksmbd-server - 3.2.6-1
 libblobmsg-json - 2020-08-06-9e52171d-1
 libc - 1.1.24-2
+libcap - 2.43-1
 libcap-ng - 0.8-1
 libelf1 - 0.179-1
+libevent2-core7 - 2.1.11-2
+libevent2-pthreads7 - 2.1.11-2
 libgcc1 - 8.4.0-2
 libip4tc2 - 1.8.4-1
 libip6tc2 - 1.8.4-1
@@ -116,6 +119,7 @@ libncurses6 - 6.2-1
 libnl-core200 - 3.5.0-1
 libnl-genl200 - 3.5.0-1
 libnl-tiny1 - 2020-08-05-c291088f-1
+libopenssl1.1 - 1.1.1h-1
 libpcap1 - 1.9.1-2
 libpopt0 - 1.16-2
 libpthread - 1.1.24-2
@@ -139,7 +143,6 @@ luci-app-commands - git-20.132.35301-2c0886b
 luci-app-firewall - git-20.275.75166-43dc420
 luci-app-ksmbd - git-20.108.38431-8f34e10
 luci-app-meshwizard - git-19.157.76835-ac16b4a
-luci-app-ntpc - git-20.108.38431-8f34e10
 luci-app-opkg - git-20.159.50935-79ace93
 luci-app-qos - git-20.108.38431-8f34e10
 luci-app-upnp - git-20.306.04092-b01a394
@@ -153,7 +156,6 @@ luci-i18n-commands-uk - git-20.319.46222-08196ea
 luci-i18n-firewall-uk - git-20.324.61027-7a33824
 luci-i18n-ksmbd-uk - git-20.324.61027-7a33824
 luci-i18n-meshwizard-uk - git-18.311.58259-40de466
-luci-i18n-ntpc-uk - git-20.322.51552-4dc1fab
 luci-i18n-opkg-uk - git-20.322.51552-4dc1fab
 luci-i18n-qos-uk - git-20.324.61027-7a33824
 luci-i18n-upnp-uk - git-20.324.61027-7a33824
@@ -175,6 +177,7 @@ mtd - 26
 nano - 5.3-1
 netifd - 2020-11-13-4a411357-1
 netperf - 2.7.0-2
+ntp-utils - 4.2.8p15-3
 ntpclient - 2015_365-4
 odhcp6c - 2020-03-28-f575351c-16
 odhcpd-ipv6only - 2020-11-15-fb55e803-1

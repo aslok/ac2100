@@ -15,11 +15,12 @@ config system
 	option cronloglevel '8'
 
 config timeserver 'ntp'
-	list server '0.openwrt.pool.ntp.org'
-	list server '1.openwrt.pool.ntp.org'
-	list server '2.openwrt.pool.ntp.org'
-	list server '3.openwrt.pool.ntp.org'
 	option enable_server '1'
+	option use_dhcp '0'
+	list server '0.pool.ntp.org'
+	list server '1.pool.ntp.org'
+	list server '2.pool.ntp.org'
+	list server '3.pool.ntp.org'
 
 config led
 	option name 'wan on'
