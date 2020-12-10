@@ -1,0 +1,5 @@
+/lib/upgrade/keep.d/tor
+/etc/init.d/tor
+/etc/tor/torrc
+/usr/sbin/tor
+/etc/config/tor

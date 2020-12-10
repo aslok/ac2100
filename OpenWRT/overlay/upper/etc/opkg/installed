@@ -101,6 +101,7 @@ libc - 1.1.24-2
 libcap - 2.43-1
 libcap-ng - 0.8-1
 libelf1 - 0.179-1
+libevent2-7 - 2.1.11-2
 libevent2-core7 - 2.1.11-2
 libevent2-pthreads7 - 2.1.11-2
 libgcc1 - 8.4.0-2
@@ -197,6 +198,7 @@ rsync - 3.2.3-2
 tc - 5.9.0-1
 tcpdump - 4.9.3-1
 terminfo - 6.2-1
+tor - 0.4.4.6-1
 ubi-utils - 2.1.2-1
 uboot-envtools - 2020.04-5
 ubox - 2020-10-25-9ef88681-1

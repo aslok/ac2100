@@ -545,20 +545,20 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 
-Package: kmod-crypto-hmac
-Version: 5.4.77-1
-Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash, kmod-crypto-manager
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1605877829
-Auto-Installed: yes
-
 Package: kmod-crypto-sha256
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1605877843
+Auto-Installed: yes
+
+Package: kmod-crypto-hmac
+Version: 5.4.77-1
+Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-crypto-hash, kmod-crypto-manager
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1605877829
 Auto-Installed: yes
 
 Package: kmod-ledtrig-heartbeat
@@ -616,14 +616,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1605876336
 Auto-Installed: yes
 
-Package: libiwinfo20200105
-Version: 2020-06-03-2faa20e5-1
-Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
-Provides: libiwinfo
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1605836143
-
 Package: libxtables12
 Version: 1.8.4-1
 Depends: libc
@@ -632,6 +624,14 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 Auto-Installed: yes
+
+Package: libiwinfo20200105
+Version: 2020-06-03-2faa20e5-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
+Provides: libiwinfo
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605836143
 
 Package: ksmbd-server
 Version: 3.2.6-1
@@ -1333,6 +1333,18 @@ Architecture: mipsel_24kc
 Installed-Time: 1605875934
 Auto-Installed: yes
 
+Package: tor
+Version: 0.4.4.6-1
+Depends: libc, libevent2-7, libopenssl1.1, libpthread, librt, zlib, libcap
+Provides: tor-basic
+Conflicts: tor-basic
+Status: install user installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/tor/torrc 59defd5c911184a2bbab5d9e6f149ae06b4bf5ff7bca3f7f1dbadd82d9e99b6e
+ /etc/config/tor 8646141d901bcfad17a08e90b18c770637c690252f2f87b684c32a57d601d089
+Installed-Time: 1607611597
+
 Package: luci-i18n-upnp-uk
 Version: git-20.324.61027-7a33824
 Depends: libc, luci-app-upnp
@@ -1495,6 +1507,15 @@ Provides: libubus
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
+Auto-Installed: yes
+
+Package: libevent2-7
+Version: 2.1.11-2
+Depends: libc
+Provides: libevent2
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1607611594
 Auto-Installed: yes
 
 Package: rpcd-mod-iwinfo
@@ -1668,14 +1689,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 
-Package: kmod-sched-core
-Version: 5.4.77-1
-Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1605876271
-Auto-Installed: yes
-
 Package: kmod-ipt-nat
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1), kmod-ipt-core, kmod-nf-nat
@@ -1683,12 +1696,13 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1605836143
 
-Package: kmod-ledtrig-netdev
+Package: kmod-sched-core
 Version: 5.4.77-1
 Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
 Status: install user installed
 Architecture: mipsel_24kc
-Installed-Time: 1605876262
+Installed-Time: 1605876271
+Auto-Installed: yes
 
 Package: libnl-genl200
 Version: 3.5.0-1
@@ -1698,6 +1712,13 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1605878070
 Auto-Installed: yes
+
+Package: kmod-ledtrig-netdev
+Version: 5.4.77-1
+Depends: kernel (= 5.4.77-1-ffa72b032cd61cba35f59c0ef67f73f1)
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1605876262
 
 Package: libevent2-core7
 Version: 2.1.11-2
