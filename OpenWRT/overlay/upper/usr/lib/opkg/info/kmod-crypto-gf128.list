@@ -1,2 +1,2 @@
-/lib/modules/5.4.77/gf128mul.ko
 /etc/modules.d/09-crypto-gf128
+/lib/modules/5.4.82/gf128mul.ko

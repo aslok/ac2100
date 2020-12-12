@@ -1,11 +1,11 @@
 Package: luci-app-adblock
-Version: git-20.310.50307-0cdad38
+Version: git-20.332.78226-75b24a7
 Depends: libc, adblock, luci-lib-jsonc
 Source: feeds/luci/applications/luci-app-adblock
 SourceName: luci-app-adblock
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1605622752
+SourceDateEpoch: 1607676014
 Architecture: all
-Installed-Size: 8789
+Installed-Size: 8896
 Description:  LuCI support for Adblock

@@ -1,2 +1,2 @@
-/lib/modules/5.4.77/gcm.ko
+/lib/modules/5.4.82/gcm.ko
 /etc/modules.d/09-crypto-gcm

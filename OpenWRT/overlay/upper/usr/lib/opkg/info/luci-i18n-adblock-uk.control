@@ -1,11 +1,11 @@
 Package: luci-i18n-adblock-uk
-Version: git-20.322.51552-4dc1fab
+Version: git-20.346.31214-c121a43
 Depends: libc, luci-app-adblock
 Source: feeds/luci/applications/luci-app-adblock
 SourceName: luci-i18n-adblock-uk
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1605622752
+SourceDateEpoch: 1607676014
 Architecture: all
 Installed-Size: 812
 Description:  Translation for luci-app-adblock - Українська (Ukrainian)

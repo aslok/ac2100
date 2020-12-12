@@ -1,2 +1,2 @@
 /etc/modules.d/09-crypto-ccm
-/lib/modules/5.4.77/ccm.ko
+/lib/modules/5.4.82/ccm.ko

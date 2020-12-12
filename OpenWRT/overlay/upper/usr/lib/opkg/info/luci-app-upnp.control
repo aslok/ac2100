@@ -1,10 +1,10 @@
 Package: luci-app-upnp
-Version: git-20.306.04092-b01a394
+Version: git-20.332.74200-03c77da
 Depends: libc, miniupnpd
 Source: feeds/luci/applications/luci-app-upnp
 SourceName: luci-app-upnp
 Section: luci
-SourceDateEpoch: 1605805027
+SourceDateEpoch: 1607676014
 Architecture: all
-Installed-Size: 4118
+Installed-Size: 4119
 Description:  Universal Plug & Play configuration module

@@ -1,16 +1,16 @@
 Package: bash
-Version: 5.0-4
+Version: 5.1-1
 Depends: libc, libncurses6, libreadline8
 Source: feeds/packages/utils/bash
 SourceName: bash
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1588106304
+SourceDateEpoch: 1607475458
 CPE-ID: cpe:/a:gnu:bash
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: mipsel_24kc
-Installed-Size: 268630
+Installed-Size: 350121
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).

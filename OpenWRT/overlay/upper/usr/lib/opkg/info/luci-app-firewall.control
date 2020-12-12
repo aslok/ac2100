@@ -1,11 +1,11 @@
 Package: luci-app-firewall
-Version: git-20.275.75166-43dc420
+Version: git-20.325.44908-4dbf600
 Depends: libc, firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1605805027
+SourceDateEpoch: 1607676014
 Architecture: all
-Installed-Size: 13796
+Installed-Size: 13820
 Description:  Firewall and Portforwarding application

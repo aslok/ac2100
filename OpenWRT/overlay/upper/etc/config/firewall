@@ -181,12 +181,6 @@ config rule
 	option target 'ACCEPT'
 	option dest_port '67-68'
 
-config include 'miniupnpd'
-	option type 'script'
-	option path '/usr/share/miniupnpd/firewall.include'
-	option family 'any'
-	option reload '1'
-
 config redirect
 	option target 'DNAT'
 	option name 'Transmission'
@@ -196,4 +190,10 @@ config redirect
 	option dest 'lan'
 	option dest_ip '192.168.1.5'
 	option dest_port '51413'
+
+config include 'miniupnpd'
+	option type 'script'
+	option path '/usr/share/miniupnpd/firewall.include'
+	option family 'any'
+	option reload '1'
 

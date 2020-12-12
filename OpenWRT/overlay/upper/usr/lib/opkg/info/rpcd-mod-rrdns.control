@@ -5,8 +5,8 @@ Source: feeds/luci/libs/rpcd-mod-rrdns
 SourceName: rpcd-mod-rrdns
 License: Apache-2.0
 Section: libs
-SourceDateEpoch: 1499774731
+SourceDateEpoch: 1607356877
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 3801
+Installed-Size: 3803
 Description:  Provides rapid mass reverse DNS lookup functionality.

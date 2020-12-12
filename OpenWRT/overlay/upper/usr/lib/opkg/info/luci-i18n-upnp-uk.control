@@ -1,10 +1,10 @@
 Package: luci-i18n-upnp-uk
-Version: git-20.324.61027-7a33824
+Version: git-20.346.31214-c121a43
 Depends: libc, luci-app-upnp
 Source: feeds/luci/applications/luci-app-upnp
 SourceName: luci-i18n-upnp-uk
 Section: luci
-SourceDateEpoch: 1605805027
+SourceDateEpoch: 1607676014
 Architecture: all
-Installed-Size: 1751
+Installed-Size: 1752
 Description:  Translation for luci-app-upnp - Українська (Ukrainian)

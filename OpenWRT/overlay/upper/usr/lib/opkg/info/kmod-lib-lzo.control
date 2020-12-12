@@ -1,0 +1,11 @@
+Package: kmod-lib-lzo
+Version: 5.4.82-1
+Depends: kernel (=5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-acompress
+Source: package/kernel/linux
+SourceName: kmod-lib-lzo
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1607691424
+Architecture: mipsel_24kc
+Installed-Size: 201
+Description:  Kernel module for LZO compression/decompression support

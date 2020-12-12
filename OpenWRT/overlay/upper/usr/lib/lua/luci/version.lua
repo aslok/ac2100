@@ -17,4 +17,4 @@ else
 end
 
 luciname    = "LuCI Master"
-luciversion = "git-20.311.85590-5c5b134"
+luciversion = "git-20.339.75073-e54708a"

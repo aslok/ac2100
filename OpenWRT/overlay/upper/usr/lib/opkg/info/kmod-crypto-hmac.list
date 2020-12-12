@@ -1,2 +1,2 @@
 /etc/modules.d/09-crypto-hmac
-/lib/modules/5.4.77/hmac.ko
+/lib/modules/5.4.82/hmac.ko

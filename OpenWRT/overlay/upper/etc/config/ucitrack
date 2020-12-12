@@ -54,9 +54,6 @@ config samba
 config tinyproxy
 	option init 'tinyproxy'
 
-config luci_statistics
-	option init 'luci_statistics'
-
 config sqm
 	option init 'sqm'
 
@@ -65,4 +62,7 @@ config meshwizard 'meshwizard'
 
 config upnpd
 	option init 'miniupnpd'
+
+config luci_statistics
+	option init 'luci_statistics'
 

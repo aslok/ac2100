@@ -5,8 +5,8 @@ Source: feeds/luci/libs/rpcd-mod-luci
 SourceName: rpcd-mod-luci
 License: Apache-2.0
 Section: libs
-SourceDateEpoch: 1604783425
+SourceDateEpoch: 1607356877
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 11803
+Installed-Size: 11805
 Description:  Provides LuCI backend ubus RPC operations.

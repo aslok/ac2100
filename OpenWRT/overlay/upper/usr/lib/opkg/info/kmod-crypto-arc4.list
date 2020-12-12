@@ -1,2 +1,2 @@
-/lib/modules/5.4.77/arc4.ko
+/lib/modules/5.4.82/arc4.ko
 /etc/modules.d/09-crypto-arc4

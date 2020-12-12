@@ -1,11 +1,11 @@
 Package: luci-mod-system
-Version: git-20.280.34248-a75ae38
+Version: git-20.332.74200-03c77da
 Depends: libc, luci-base, kmod-ledtrig-default-on, kmod-ledtrig-heartbeat, kmod-ledtrig-netdev, kmod-ledtrig-timer
 Source: feeds/luci/modules/luci-mod-system
 SourceName: luci-mod-system
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1601976648
+SourceDateEpoch: 1606509400
 Architecture: all
-Installed-Size: 17188
+Installed-Size: 17207
 Description:  LuCI Administration - Global System Settings
