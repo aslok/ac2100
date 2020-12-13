@@ -5,6 +5,7 @@ ssh wifi3r 'opkg update ; opkg install rsync'
 ./push overlay/upper/etc/opkg/installed
 ./push overlay/upper/srv/tftp/arch/
 ./push overlay/upper/usr/bin/statistics
+./push overlay/upper/usr/bin/listuserpackages
 ./push overlay/upper/etc/init.d/dnsmasq
 ssh wifi3r 'opkg install $(cat /etc/opkg/installed | sed -e "s/^\(.*\) - .*$/\1/")'
 ./push overlay/upper/usr/lib/qos/generate.sh

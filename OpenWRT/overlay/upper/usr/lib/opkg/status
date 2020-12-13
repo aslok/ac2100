@@ -590,20 +590,20 @@ Architecture: mipsel_24kc
 Installed-Time: 1607774691
 Auto-Installed: yes
 
-Package: kmod-crypto-sha256
-Version: 5.4.82-1
-Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-hash
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1607773825
-Auto-Installed: yes
-
 Package: kmod-crypto-hmac
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-hash, kmod-crypto-manager
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773820
+Auto-Installed: yes
+
+Package: kmod-crypto-sha256
+Version: 5.4.82-1
+Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-hash
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607773825
 Auto-Installed: yes
 
 Package: kmod-ledtrig-heartbeat
@@ -677,6 +677,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1607774037
 Auto-Installed: yes
 
+Package: libiwinfo20200105
+Version: 2020-06-03-2faa20e5-1
+Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
+Provides: libiwinfo
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607716416
+
 Package: libxtables12
 Version: 1.8.4-1
 Depends: libc
@@ -685,14 +693,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
 Auto-Installed: yes
-
-Package: libiwinfo20200105
-Version: 2020-06-03-2faa20e5-1
-Depends: libc, libnl-tiny1, libuci20130104, libubus20191227
-Provides: libiwinfo
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1607716416
 
 Package: ksmbd-server
 Version: 3.3.1-1
@@ -784,6 +784,14 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
 
+Package: collectd-mod-network
+Version: 5.12.0-1
+Depends: libc, collectd
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1607775386
+Auto-Installed: yes
+
 Package: libblkid1
 Version: 2.36-2
 Depends: libc, libuuid1
@@ -802,13 +810,12 @@ Architecture: mipsel_24kc
 Installed-Time: 1607773780
 Auto-Installed: yes
 
-Package: collectd-mod-network
+Package: collectd-mod-wireless
 Version: 5.12.0-1
 Depends: libc, collectd
-Status: install ok installed
+Status: install user installed
 Architecture: mipsel_24kc
-Installed-Time: 1607775386
-Auto-Installed: yes
+Installed-Time: 1607782137
 
 Package: libssh2-1
 Version: 1.9.0-2
@@ -1354,6 +1361,13 @@ Status: install user installed
 Architecture: all
 Installed-Time: 1607774120
 
+Package: collectd-mod-ntpd
+Version: 5.12.0-1
+Depends: libc, collectd
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607782133
+
 Package: kmod-ledtrig-activity
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb)
@@ -1886,13 +1900,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
 
-Package: kmod-ipt-nat
-Version: 5.4.82-1
-Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-ipt-core, kmod-nf-nat
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1607716416
-
 Package: kmod-sched-core
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb)
@@ -1900,6 +1907,20 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773926
 Auto-Installed: yes
+
+Package: kmod-ipt-nat
+Version: 5.4.82-1
+Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-ipt-core, kmod-nf-nat
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607716416
+
+Package: kmod-ledtrig-netdev
+Version: 5.4.82-1
+Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb)
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1607773909
 
 Package: libnl-genl200
 Version: 3.5.0-1
@@ -1909,13 +1930,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773937
 Auto-Installed: yes
-
-Package: kmod-ledtrig-netdev
-Version: 5.4.82-1
-Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb)
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1607773909
 
 Package: libevent2-core7
 Version: 2.1.11-2
