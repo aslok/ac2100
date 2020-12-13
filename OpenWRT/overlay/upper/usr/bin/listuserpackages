@@ -7,4 +7,4 @@ sed -ne '/^Package:[[:blank:]]*/ {
 /user installed/ {
     g
     p
-}' /usr/lib/opkg/status
+}' /usr/lib/opkg/status | sort -h
