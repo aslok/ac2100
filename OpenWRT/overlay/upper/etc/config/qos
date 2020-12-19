@@ -125,3 +125,8 @@ config classify
 	option target 'B'
 	option dsthost '192.168.1.21'
 
+config classify
+	option target 'A'
+	option proto 'udp'
+	option ports '123'
+

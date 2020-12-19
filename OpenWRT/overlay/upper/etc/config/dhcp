@@ -1,8 +1,6 @@
 
 config dnsmasq
 	option domainneeded '1'
-	option rebind_protection '1'
-	option rebind_localhost '1'
 	option authoritative '1'
 	option readethers '1'
 	option leasefile '/tmp/dhcp.leases'
@@ -14,9 +12,11 @@ config dnsmasq
 	option enable_tftp '1'
 	option tftp_root '/srv/tftp/'
 	option dhcp_boot '/arch/boot/syslinux/lpxelinux.0'
-	option strictorder '1'
-	option cachesize '5000'
 	option localservice '0'
+	option boguspriv '0'
+	option rebind_protection '0'
+	option strictorder '1'
+	option cachesize '10000'
 
 config odhcpd 'odhcpd'
 	option maindhcp '0'
@@ -108,9 +108,9 @@ config host
 
 config host
 	option mac '00:1E:4F:93:23:78'
-	option name 'nas3r'
 	option dns '1'
-	option ip '192.168.1.5'
+	option ip '192.168.1.23'
+	option name 'mas3r'
 
 config host
 	option mac '78:8B:2A:48:A0:87'
@@ -135,12 +135,6 @@ config host
 	option name 'tan4ik-pc'
 	option dns '1'
 	option ip '192.168.1.11'
-
-config host
-	option mac '34:75:63:18:10:AD'
-	option name 't95q'
-	option dns '1'
-	option ip '192.168.1.12'
 
 config host
 	option mac 'A4:FC:77:24:D5:13'
@@ -213,4 +207,10 @@ config host
 	option name 'xbox-lan'
 	option dns '1'
 	option ip '192.168.1.26'
+
+config host
+	option dns '1'
+	option mac '18:C0:4D:4E:D3:14'
+	option ip '192.168.1.5'
+	option name 'nas3r'
 

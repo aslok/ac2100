@@ -16,11 +16,7 @@ config system
 
 config timeserver 'ntp'
 	option enable_server '1'
-	option use_dhcp '0'
 	list server '0.pool.ntp.org'
-	list server '1.pool.ntp.org'
-	list server '2.pool.ntp.org'
-	list server '3.pool.ntp.org'
 
 config led
 	option name 'wan on'

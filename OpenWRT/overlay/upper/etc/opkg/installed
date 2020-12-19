@@ -5,7 +5,8 @@ bash
 busybox
 ca-bundle
 cgi-io
-collectd-mod-ntpd
+collectd-mod-disk
+collectd-mod-dns
 collectd-mod-wireless
 coreutils
 coreutils-sort
@@ -182,8 +183,6 @@ mtd
 nano
 netifd
 netperf
-ntp-utils
-ntpclient
 odhcp6c
 odhcpd-ipv6only
 openwrt-keyring

@@ -1176,8 +1176,6 @@ start_service() {
 	else
 		config_foreach dnsmasq_start dnsmasq
 	fi
-
-        /usr/bin/qos-start
 }
 
 reload_service() {
