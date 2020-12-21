@@ -108,8 +108,8 @@ config globals 'globals'
 #	list Script 'script1.lua'
 #	list Script 'script2.lua
 
-#config plugin 'memory'
-#	option enable '0'
+config plugin 'memory'
+	option enable '1'
 
 #config plugin 'netlink'
 #	option enable '0'
@@ -198,6 +198,6 @@ config globals 'globals'
 #config plugin 'uptime'
 #	option enable '0'
 
-#config plugin 'vmem'
-#	option enable '0'
-#	option Verbose '0'
+config plugin 'vmem'
+	option enable '1'
+	option Verbose '1'

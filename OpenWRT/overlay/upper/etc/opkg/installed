@@ -7,6 +7,7 @@ ca-bundle
 cgi-io
 collectd-mod-disk
 collectd-mod-dns
+collectd-mod-vmem
 collectd-mod-wireless
 coreutils
 coreutils-sort
