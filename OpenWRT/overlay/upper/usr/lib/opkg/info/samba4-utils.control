@@ -1,0 +1,16 @@
+Package: samba4-utils
+Version: 4.13.2-1
+Depends: libc, samba4-libs
+Source: feeds/packages/net/samba4
+SourceName: samba4-utils
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1607453280
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 35212
+Description:  installs: smbstatus smbtree mvxattr smbtar smbcquotas
+ 
+ Utilities collection

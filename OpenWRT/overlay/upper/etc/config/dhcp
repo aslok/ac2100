@@ -17,6 +17,8 @@ config dnsmasq
 	option rebind_protection '0'
 	option strictorder '1'
 	option cachesize '10000'
+	list interface 'br-lan'
+	list interface 'wlan0-1'
 
 config odhcpd 'odhcpd'
 	option maindhcp '0'
@@ -213,4 +215,10 @@ config host
 	option mac '18:C0:4D:4E:D3:14'
 	option ip '192.168.1.5'
 	option name 'nas3r'
+
+config host
+	option name 'broth3r'
+	option dns '1'
+	option mac '30:C9:AB:17:02:39'
+	option ip '192.168.1.6'
 

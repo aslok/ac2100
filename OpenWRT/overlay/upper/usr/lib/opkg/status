@@ -39,6 +39,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1607773972
 Auto-Installed: yes
 
+Package: libpam
+Version: 1.5.1-1
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676442
+Auto-Installed: yes
+
 Package: cgi-io
 Version: 2020-10-27-ab4c3471-19
 Depends: libc, libubox20191228, libubus20191227
@@ -68,6 +76,17 @@ Status: install hold,user installed
 Essential: yes
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
+Auto-Installed: yes
+
+Package: avahi-dbus-daemon
+Version: 0.8-7
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Status: install ok installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/avahi/avahi-daemon.conf 65650c663773acb2c2e25e5a4158a5970cc74def4ff7f26f927819e6ab66c33a
+Installed-Time: 1608676472
 Auto-Installed: yes
 
 Package: kmod-crypto-gf128
@@ -292,6 +311,22 @@ Conffiles:
  /etc/bash.bashrc 096d8e6a4da75033f12dc764cd45055e922cdba8292f3c22216f7d5c9ed6e454
 Installed-Time: 1607773752
 
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676437
+Auto-Installed: yes
+
+Package: libdbus
+Version: 1.13.12-1
+Depends: libc, libpthread
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676455
+Auto-Installed: yes
+
 Package: kmod-crypto-md4
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-hash
@@ -343,13 +378,6 @@ Depends: libc
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
-
-Package: luci-i18n-ksmbd-uk
-Version: git-20.324.61027-7a33824
-Depends: libc, luci-app-ksmbd
-Status: install user installed
-Architecture: all
-Installed-Time: 1607774145
 
 Package: collectd-mod-disk
 Version: 5.12.0-2
@@ -411,6 +439,14 @@ Depends: libc
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773941
+
+Package: libavahi-client
+Version: 0.8-7
+Depends: libc, avahi-dbus-daemon
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676476
+Auto-Installed: yes
 
 Package: libcap-ng
 Version: 0.8.1-1
@@ -588,6 +624,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1607774691
 Auto-Installed: yes
 
+Package: attr
+Version: 2.4.48-2
+Depends: libc, libattr
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676447
+Auto-Installed: yes
+
 Package: kmod-crypto-sha256
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-hash
@@ -691,16 +735,6 @@ Provides: libiwinfo
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
-
-Package: ksmbd-server
-Version: 3.3.1-1
-Depends: libc, kmod-fs-ksmbd, libnl-core200, libnl-genl200
-Status: install user installed
-Architecture: mipsel_24kc
-Conffiles:
- /etc/config/ksmbd 9cf43e11524752a960a4bc129dd251d94a34bd0acfd336e8f7e7d68f33d3bb68
- /etc/ksmbd/smb.conf.template f9b45aa86ea66fef794917c1e6ead43e5cafb5cdaba14a57c21e18f848aaa8a3
-Installed-Time: 1607773937
 
 Package: kmod-crypto-sha512
 Version: 5.4.82-1
@@ -815,6 +849,14 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607782137
 
+Package: libgnutls
+Version: 3.6.15-1
+Depends: libc, libnettle7, libgmp10, libatomic1
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676430
+Auto-Installed: yes
+
 Package: libssh2-1
 Version: 1.9.0-2
 Depends: libc, libopenssl1.1, zlib
@@ -885,6 +927,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1607716416
 Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
 
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676467
+Auto-Installed: yes
+
 Package: luci-i18n-base-uk
 Version: git-20.346.31214-c121a43
 Depends: libc, luci-base
@@ -940,6 +990,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1607716416
 Auto-Installed: yes
 
+Package: dbus
+Version: 1.13.12-1
+Depends: libc, libexpat, libdbus
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676459
+Auto-Installed: yes
+
 Package: libubox20191228
 Version: 2020-08-06-9e52171d-1
 Depends: libc
@@ -982,6 +1040,15 @@ Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-nls-base
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773879
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 6.1.2-2
+Depends: libc
+Provides: libgmp
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676410
 Auto-Installed: yes
 
 Package: luci-compat
@@ -1045,6 +1112,18 @@ Architecture: mipsel_24kc
 Installed-Time: 1607773727
 Auto-Installed: yes
 Alternatives: 300:/usr/bin/sort:/usr/bin/gnu-sort
+
+Package: samba4-server
+Version: 4.13.2-1
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+Status: install ok installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/config/samba4 874cfeaa5b2a5d739121fc630e5ae4fb5826a50e96fb17a542776ae72d80c486
+ /etc/samba/smb.conf.template ef9d3b7541d8f8acf3c3068a8cdb20bcc4d5cdaa14bb0dcb46188b7feca3e276
+Installed-Time: 1608676588
+Auto-Installed: yes
 
 Package: rpcd-mod-luci
 Version: 20201107
@@ -1122,6 +1201,15 @@ Conffiles:
 Installed-Time: 1607774033
 Auto-Installed: yes
 
+Package: libnettle7
+Version: 3.5.1-2
+Depends: libc, libgmp10
+Provides: libnettle
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676415
+Auto-Installed: yes
+
 Package: luci-app-commands
 Version: git-20.132.35301-2c0886b
 Depends: libc, luci-compat
@@ -1156,6 +1244,14 @@ Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-mac80211, km
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
+
+Package: samba4-libs
+Version: 4.13.2-1
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl1.1, libpthread, libpam, attr, libavahi-client
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676581
+Auto-Installed: yes
 
 Package: libreadline8
 Version: 8.0-1
@@ -1299,6 +1395,13 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773841
 
+Package: luci-i18n-samba4-uk
+Version: git-20.357.24790-f47387f
+Depends: libc, luci-app-samba4
+Status: install user installed
+Architecture: all
+Installed-Time: 1608676592
+
 Package: jshn
 Version: 2020-08-06-9e52171d-1
 Depends: libc, libjson-c5, libubox20191228, libblobmsg-json
@@ -1351,6 +1454,13 @@ Architecture: mipsel_24kc
 Installed-Time: 1607773748
 Auto-Installed: yes
 
+Package: samba4-utils
+Version: 4.13.2-1
+Depends: libc, samba4-libs
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1608677033
+
 Package: kmod-ipt-ipset
 Version: 5.4.82-1
 Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-ipt-core, kmod-nfnetlink
@@ -1372,6 +1482,14 @@ Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb)
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773892
+
+Package: luci-app-samba4
+Version: git-20.179.75976-ec03451
+Depends: libc, samba4-server
+Status: install ok installed
+Architecture: all
+Installed-Time: 1608676591
+Auto-Installed: yes
 
 Package: kmod-crypto-null
 Version: 5.4.82-1
@@ -1632,13 +1750,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1607716416
 Auto-Installed: yes
 
-Package: luci-app-ksmbd
-Version: git-20.108.38431-8f34e10
-Depends: libc, ksmbd-server
-Status: install user installed
-Architecture: all
-Installed-Time: 1607774092
-
 Package: librrd1
 Version: 1.0.50-3
 Depends: libc, zlib
@@ -1653,6 +1764,14 @@ Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), kmod-crypto-acomp
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1607774747
+Auto-Installed: yes
+
+Package: libexpat
+Version: 2.2.10-1
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676450
 Auto-Installed: yes
 
 Package: kmod-mt76-core
@@ -1736,6 +1855,16 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607773872
 
+Package: libatomic1
+Version: 8.4.0-2
+Depends: libgcc1
+Provides: libatomic
+Status: install hold installed
+Essential: yes
+Architecture: mipsel_24kc
+Installed-Time: 1608676418
+Auto-Installed: yes
+
 Package: luci-i18n-qos-uk
 Version: git-20.346.31214-c121a43
 Depends: libc, luci-app-qos
@@ -1764,6 +1893,14 @@ Depends: libc, uhttpd, libubus20191227, libblobmsg-json
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607774008
+Auto-Installed: yes
+
+Package: libtirpc
+Version: 1.3.1-1
+Depends: libc, libpthread
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676404
 Auto-Installed: yes
 
 Package: fwtool
@@ -1871,6 +2008,15 @@ Depends: kernel (= 5.4.82-1-e07a952952320d6b9387b3183cd774fb), iw, wireless-regd
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1607716416
+Auto-Installed: yes
+
+Package: libavahi-dbus-support
+Version: 0.8-7
+Depends: libc, dbus
+Provides: libavahi
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1608676464
 Auto-Installed: yes
 
 Package: qos-scripts

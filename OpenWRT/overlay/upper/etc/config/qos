@@ -1,3 +1,7 @@
+config classify
+	option target 'A'
+	option proto 'udp'
+	option ports '123'
 
 config classify
 	option target 'Z'
@@ -16,12 +20,28 @@ config classify
 	option dsthost '192.168.1.3'
 
 config classify
+	option target 'C'
+	option srchost '192.168.1.4'
+
+config classify
+	option target 'C'
+	option dsthost '192.168.1.4'
+
+config classify
 	option target 'D'
 	option srchost '192.168.1.5'
 
 config classify
 	option target 'D'
 	option dsthost '192.168.1.5'
+
+config classify
+	option target 'A'
+	option srchost '192.168.1.6'
+
+config classify
+	option target 'A'
+	option dsthost '192.168.1.6'
 
 config classify
 	option target 'E'
@@ -38,14 +58,6 @@ config classify
 config classify
 	option target 'F'
 	option dsthost '192.168.1.11'
-
-config classify
-	option target 'C'
-	option srchost '192.168.1.4'
-
-config classify
-	option target 'C'
-	option dsthost '192.168.1.4'
 
 config classify
 	option target 'C'
@@ -78,6 +90,14 @@ config classify
 config classify
 	option target 'C'
 	option dsthost '192.168.1.19'
+
+config classify
+	option target 'B'
+	option srchost '192.168.1.21'
+
+config classify
+	option target 'B'
+	option dsthost '192.168.1.21'
 
 config interface 'wan'
 	option classgroup 'Default'
@@ -116,17 +136,4 @@ config class 'Y'
 
 config class 'Z'
 	option priority '1'
-
-config classify
-	option target 'B'
-	option srchost '192.168.1.21'
-
-config classify
-	option target 'B'
-	option dsthost '192.168.1.21'
-
-config classify
-	option target 'A'
-	option proto 'udp'
-	option ports '123'
 

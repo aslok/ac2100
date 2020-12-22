@@ -1,0 +1,10 @@
+Package: luci-app-samba4
+Version: git-20.179.75976-ec03451
+Depends: libc, samba4-server
+Source: feeds/luci/applications/luci-app-samba4
+SourceName: luci-app-samba4
+Section: luci
+SourceDateEpoch: 1608619990
+Architecture: all
+Installed-Size: 2248
+Description:  Network Shares - Samba 4 SMB/CIFS fileserver

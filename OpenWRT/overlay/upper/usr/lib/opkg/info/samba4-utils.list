@@ -1,0 +1,5 @@
+/usr/bin/smbstatus
+/usr/bin/smbtree
+/usr/bin/smbcquotas
+/usr/bin/smbtar
+/usr/bin/mvxattr

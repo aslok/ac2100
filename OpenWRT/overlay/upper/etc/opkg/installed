@@ -99,7 +99,6 @@ kmod-pppox
 kmod-sched-connmark
 kmod-sched-core
 kmod-slhc
-ksmbd-server
 libblobmsg-json
 libc
 libcap
@@ -146,7 +145,6 @@ luci-app-adblock
 luci-app-attendedsysupgrade
 luci-app-commands
 luci-app-firewall
-luci-app-ksmbd
 luci-app-meshwizard
 luci-app-opkg
 luci-app-qos
@@ -159,10 +157,10 @@ luci-i18n-attendedsysupgrade-uk
 luci-i18n-base-uk
 luci-i18n-commands-uk
 luci-i18n-firewall-uk
-luci-i18n-ksmbd-uk
 luci-i18n-meshwizard-uk
 luci-i18n-opkg-uk
 luci-i18n-qos-uk
+luci-i18n-samba4-uk
 luci-i18n-statistics-uk
 luci-i18n-upnp-uk
 luci-i18n-wol-uk
@@ -199,6 +197,7 @@ rpcd-mod-luci
 rpcd-mod-rpcsys
 rpcd-mod-rrdns
 rsync
+samba4-utils
 tc
 tcpdump
 terminfo
