@@ -6,8 +6,9 @@ ssh wifi3r 'opkg update ; opkg install rsync'
 ./push overlay/upper/srv/tftp/arch/
 ./push overlay/upper/usr/bin/statistics
 ./push overlay/upper/usr/bin/listuserpackages
-./push overlay/upper/etc/init.d/dnsmasq
+./push overlay/upper/etc/hotplug.d/iface/60-qos
 ssh wifi3r 'opkg install $(cat /etc/opkg/installed)'
+ssh wifi3r 'rm /etc/hotplug.d/iface/10-qos'
 ./push overlay/upper/usr/lib/qos/generate.sh
 ./push overlay/upper/etc/adblock/adblock.sources.gz
 cd "$BACK"
