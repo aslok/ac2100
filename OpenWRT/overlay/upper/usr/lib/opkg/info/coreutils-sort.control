@@ -1,15 +1,15 @@
 Package: coreutils-sort
-Version: 8.32-5
+Version: 8.32-6
 Depends: libc, coreutils, libpthread
-Alternatives: 300:/usr/bin/sort:/usr/bin/gnu-sort
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
 Source: feeds/packages/utils/coreutils
 SourceName: coreutils-sort
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1603857072
+SourceDateEpoch: 1591965304
 CPE-ID: cpe:/a:gnu:coreutils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 42999
+Installed-Size: 43007
 Description:  Full version of standard GNU sort utility.

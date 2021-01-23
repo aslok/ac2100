@@ -160,6 +160,15 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
+Package: bash
+Version: 5.1-2
+Depends: libc, libncurses6, libreadline8
+Status: install user installed
+Architecture: mipsel_24kc
+Conffiles:
+ /etc/bash.bashrc 096d8e6a4da75033f12dc764cd45055e922cdba8292f3c22216f7d5c9ed6e454
+Installed-Time: 1611408737
+
 Package: luci-mod-system
 Version: git-21.012.62032-e2ac2e9
 Depends: libc, luci-base
@@ -320,6 +329,14 @@ Depends: libc, libuci20130104, libnl-tiny1, libubus20191227, ubus, ubusd, jshn, 
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
+Auto-Installed: yes
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1611408826
 Auto-Installed: yes
 
 Package: wpad-mesh-wolfssl
@@ -633,6 +650,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
+Package: coreutils-sort
+Version: 8.32-6
+Depends: libc, coreutils, libpthread
+Status: install user installed
+Architecture: mipsel_24kc
+Installed-Time: 1611408827
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+
 Package: mtr
 Version: 0.94-1
 Depends: libc, libncurses6
@@ -719,6 +744,15 @@ Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-mac80211, km
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
+
+Package: libreadline8
+Version: 8.0-1
+Depends: libc, libncursesw6
+Provides: libreadline
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1611408736
+Auto-Installed: yes
 
 Package: librt
 Version: 1.1.24-3
