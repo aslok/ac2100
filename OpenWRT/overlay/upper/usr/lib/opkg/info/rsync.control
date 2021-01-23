@@ -1,16 +1,16 @@
 Package: rsync
-Version: 3.2.3-2
+Version: 3.2.3-3
 Depends: libc, libpopt0, zlib
 Source: feeds/packages/net/rsync
 SourceName: rsync
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1601701318
+SourceDateEpoch: 1609620772
 CPE-ID: cpe:/a:rsync:rsync
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 148578
+Installed-Size: 148581
 Description:  rsync is a program that allows files to be copied to and from remote machines
  in much the same way as rcp. It has many more options than rcp, and uses the
  rsync remote-update protocol to greatly speed up file transfers when the
