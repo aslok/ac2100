@@ -8,5 +8,5 @@ Section: net
 SourceDateEpoch: 1603836617
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: mipsel_24kc
-Installed-Size: 7531
+Installed-Size: 7533
 Description:  This package contains an cgi utility that is useful for up/downloading files

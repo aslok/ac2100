@@ -6,5 +6,5 @@ SourceName: luci-lib-jsonc
 Section: luci
 SourceDateEpoch: 1573632669
 Architecture: mipsel_24kc
-Installed-Size: 4331
+Installed-Size: 4333
 Description:  Lua binding for JSON-C

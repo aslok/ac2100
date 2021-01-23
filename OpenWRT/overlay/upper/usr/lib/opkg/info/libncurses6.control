@@ -9,5 +9,5 @@ LicenseFiles: README
 Section: libs
 SourceDateEpoch: 1583437738
 Architecture: mipsel_24kc
-Installed-Size: 148801
+Installed-Size: 148805
 Description:  Terminal handling library (Unicode)

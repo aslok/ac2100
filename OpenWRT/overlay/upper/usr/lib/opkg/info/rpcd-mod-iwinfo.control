@@ -8,5 +8,5 @@ Section: utils
 SourceDateEpoch: 1605201584
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6412
+Installed-Size: 6415
 Description:  Provides ubus calls for accessing iwinfo data.

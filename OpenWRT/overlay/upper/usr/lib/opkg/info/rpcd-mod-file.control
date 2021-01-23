@@ -8,5 +8,5 @@ Section: utils
 SourceDateEpoch: 1605201584
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6588
+Installed-Size: 6591
 Description:  Provides ubus calls for file and directory operations.

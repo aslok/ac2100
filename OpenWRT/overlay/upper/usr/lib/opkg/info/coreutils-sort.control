@@ -11,5 +11,5 @@ SourceDateEpoch: 1603857072
 CPE-ID: cpe:/a:gnu:coreutils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 42997
+Installed-Size: 42999
 Description:  Full version of standard GNU sort utility.

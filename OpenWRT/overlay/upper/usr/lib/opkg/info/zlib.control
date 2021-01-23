@@ -9,6 +9,6 @@ Section: libs
 SourceDateEpoch: 1558122103
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: mipsel_24kc
-Installed-Size: 37742
+Installed-Size: 37744
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.

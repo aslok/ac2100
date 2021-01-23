@@ -8,5 +8,5 @@ License: LGPL-2.1
 Section: libs
 SourceDateEpoch: 1572639580
 Architecture: mipsel_24kc
-Installed-Size: 33938
+Installed-Size: 33941
 Description:  Common code for all netlink libraries

@@ -9,5 +9,5 @@ SourceDateEpoch: 1596956568
 CPE-ID: cpe:/a:netperf:netperf
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: mipsel_24kc
-Installed-Size: 129984
+Installed-Size: 129990
 Description:  Network performance measurement tool

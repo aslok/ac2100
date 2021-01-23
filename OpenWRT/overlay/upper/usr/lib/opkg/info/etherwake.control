@@ -7,7 +7,7 @@ Section: net
 SourceDateEpoch: 1563705052
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
-Installed-Size: 5011
+Installed-Size: 5013
 Description:  You can wake up WOL compliant Computers which have been powered down to
  sleep mode or start WOL compliant Computers with a BIOS feature.
  WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you

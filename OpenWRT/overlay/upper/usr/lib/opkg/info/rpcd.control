@@ -8,6 +8,6 @@ Section: utils
 SourceDateEpoch: 1605201584
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 22713
+Installed-Size: 22716
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.

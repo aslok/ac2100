@@ -1,3 +1,5 @@
+/etc/sysctl.d/12-swappiness.conf 1;8;8
+/etc/rc.common 182;0;3269
 /etc/config/qos 140;0;2263
 /etc/config/collectd 1;24;24
 /usr/bin/statistics 4;0;185

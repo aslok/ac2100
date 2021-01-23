@@ -11,5 +11,5 @@ SourceDateEpoch: 1588052700
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 42520
+Installed-Size: 42522
 Description:  ELF manipulation libraries (libelf)

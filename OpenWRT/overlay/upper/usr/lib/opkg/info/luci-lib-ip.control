@@ -7,5 +7,5 @@ License: Apache-2.0
 Section: luci
 SourceDateEpoch: 1599426929
 Architecture: mipsel_24kc
-Installed-Size: 10798
+Installed-Size: 10800
 Description:  Lua library for IP calculation and routing information

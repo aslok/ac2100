@@ -8,7 +8,7 @@ Section: net
 SourceDateEpoch: 1605722376
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 40747
+Installed-Size: 40750
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.

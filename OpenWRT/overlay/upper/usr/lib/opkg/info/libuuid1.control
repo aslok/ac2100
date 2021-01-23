@@ -10,7 +10,7 @@ Section: libs
 SourceDateEpoch: 1599427152
 CPE-ID: cpe:/a:kernel:util-linux
 Architecture: mipsel_24kc
-Installed-Size: 12402
+Installed-Size: 12404
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software

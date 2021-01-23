@@ -8,5 +8,5 @@ Section: utils
 SourceDateEpoch: 1605201584
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 3601
+Installed-Size: 3604
 Description:  Provides ubus calls for sysupgrade and password changing.
