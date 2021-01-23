@@ -1,11 +1,11 @@
 Package: kmod-ledtrig-gpio
-Version: 5.4.82-1
-Depends: kernel (=5.4.82-1-e07a952952320d6b9387b3183cd774fb)
+Version: 5.4.91-1
+Depends: kernel (=5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
 Source: package/kernel/linux
 SourceName: kmod-ledtrig-gpio
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1607691424
+SourceDateEpoch: 1610731471
 Architecture: mipsel_24kc
-Installed-Size: 2046
+Installed-Size: 2043
 Description:  Kernel module that allows LEDs to be controlled by gpio events

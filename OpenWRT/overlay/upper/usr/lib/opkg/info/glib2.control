@@ -1,14 +1,14 @@
 Package: glib2
-Version: 2.66.3-1
+Version: 2.66.4-1
 Depends: libc, zlib, libpthread, libffi, libattr
 Source: feeds/packages/libs/glib2
 SourceName: glib2
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1606285737
+SourceDateEpoch: 1610067525
 CPE-ID: cpe:/a:gnome:glib
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
-Installed-Size: 929720
+Installed-Size: 921961
 Description:  The GLib library of C routines

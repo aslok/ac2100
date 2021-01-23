@@ -1,3 +1,3 @@
-/lib/modules/5.4.82/zram.ko
+/lib/modules/5.4.91/zram.ko
 /etc/modules.d/20-zram
-/lib/modules/5.4.82/zsmalloc.ko
+/lib/modules/5.4.91/zsmalloc.ko

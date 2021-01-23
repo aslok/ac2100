@@ -110,6 +110,7 @@
 /usr/lib/samba/libdsdb-module-samba4.so
 /usr/lib/samba/libgensec-samba4.so
 /usr/lib/libdcerpc-binding.so.0.0.1
+/usr/lib/samba/vfs/io_uring.so
 /usr/lib/samba/libcmdline-credentials-samba4.so
 /usr/lib/samba/libtalloc.so.2
 /usr/lib/libndr-nbt.so

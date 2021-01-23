@@ -4,7 +4,7 @@ Depends: libc, samba4-server
 Source: feeds/luci/applications/luci-app-samba4
 SourceName: luci-app-samba4
 Section: luci
-SourceDateEpoch: 1608619990
+SourceDateEpoch: 1610986114
 Architecture: all
-Installed-Size: 2248
+Installed-Size: 2250
 Description:  Network Shares - Samba 4 SMB/CIFS fileserver

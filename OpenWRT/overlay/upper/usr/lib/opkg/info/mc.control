@@ -9,7 +9,7 @@ SourceDateEpoch: 1595666821
 CPE-ID: cpe:/a:midnight_commander:midnight_commander
 Maintainer: Dirk Brenken <dev@brenken.org>
 Architecture: mipsel_24kc
-Installed-Size: 432837
+Installed-Size: 432836
 Description:  GNU Midnight Commander is a visual file manager.
  It's a feature rich full-screen text mode application that allows you to copy,
  move and delete files and whole directory trees, search for files and run commands in the subshell.

@@ -5,7 +5,7 @@ Source: feeds/luci/applications/luci-app-qos
 SourceName: luci-app-qos
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1607676014
+SourceDateEpoch: 1611089997
 Architecture: all
-Installed-Size: 1528
+Installed-Size: 1524
 Description:  Quality of Service configuration module

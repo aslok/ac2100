@@ -133,30 +133,6 @@ config rule
 config include
 	option path '/etc/firewall.user'
 
-config redirect 'adblock_dns_53'
-	option name 'Adblock DNS, port 53'
-	option src 'lan'
-	option proto 'tcp udp'
-	option src_dport '53'
-	option dest_port '53'
-	option target 'DNAT'
-
-config redirect 'adblock_dns_853'
-	option name 'Adblock DNS, port 853'
-	option src 'lan'
-	option proto 'tcp udp'
-	option src_dport '853'
-	option dest_port '853'
-	option target 'DNAT'
-
-config redirect 'adblock_dns_5353'
-	option name 'Adblock DNS, port 5353'
-	option src 'lan'
-	option proto 'tcp udp'
-	option src_dport '5353'
-	option dest_port '5353'
-	option target 'DNAT'
-
 config zone
 	option name 'guest'
 	option network 'guest'

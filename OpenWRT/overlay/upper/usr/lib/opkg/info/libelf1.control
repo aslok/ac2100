@@ -1,5 +1,5 @@
 Package: libelf1
-Version: 0.179-1
+Version: 0.180-1
 Depends: libc, zlib
 Provides: libelf, libelf1-1
 Source: feeds/base/package/libs/elfutils
@@ -7,9 +7,9 @@ SourceName: libelf
 License: GPL-3.0-or-later
 LicenseFiles: COPYING COPYING-GPLV2 COPYING-LGPLV3
 Section: libs
-SourceDateEpoch: 1588052700
+SourceDateEpoch: 1608659950
 CPE-ID: cpe:/a:elfutils_project:elfutils
 Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 42522
+Installed-Size: 42512
 Description:  ELF manipulation libraries (libelf)

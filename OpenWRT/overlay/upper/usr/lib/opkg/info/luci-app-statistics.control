@@ -1,10 +1,10 @@
 Package: luci-app-statistics
-Version: git-20.313.26943-1cff100
+Version: git-21.019.76293-dfa82b4
 Depends: libc, luci-base, luci-lib-jsonc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
-SourceDateEpoch: 1607458916
+SourceDateEpoch: 1611159707
 Architecture: all
-Installed-Size: 29592
+Installed-Size: 30681
 Description:  LuCI Statistics Application

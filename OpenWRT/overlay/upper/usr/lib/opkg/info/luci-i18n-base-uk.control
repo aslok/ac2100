@@ -1,11 +1,11 @@
 Package: luci-i18n-base-uk
-Version: git-20.346.31214-c121a43
+Version: git-21.020.58907-c434b50
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-base
 SourceName: luci-i18n-base-uk
 License: MIT
 Section: luci
-SourceDateEpoch: 1607676014
+SourceDateEpoch: 1611159707
 Architecture: all
-Installed-Size: 36423
+Installed-Size: 38519
 Description:  Translation for luci-base - Українська (Ukrainian)

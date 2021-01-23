@@ -1,0 +1,11 @@
+Package: luci-mod-dashboard
+Version: git-21.020.38173-d3280e6
+Depends: libc, luci-base, libiwinfo20210106
+Source: feeds/luci/modules/luci-mod-dashboard
+SourceName: luci-mod-dashboard
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1611138973
+Architecture: all
+Installed-Size: 6674
+Description:  LuCI Dashboard Pages

@@ -1,14 +1,14 @@
 Package: iptables-mod-conntrack-extra
-Version: 1.8.4-1
+Version: 1.8.6-1
 Depends: libc, iptables, kmod-ipt-conntrack-extra, kmod-ipt-raw
 Source: package/network/utils/iptables
 SourceName: iptables-mod-conntrack-extra
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1584287756
+SourceDateEpoch: 1610184244
 CPE-ID: cpe:/a:netfilter_core_team:iptables
 Architecture: mipsel_24kc
-Installed-Size: 10844
+Installed-Size: 10846
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:

@@ -1,10 +1,10 @@
 Package: luci-i18n-wol-uk
-Version: git-20.317.58722-c20fa83
+Version: git-21.016.32520-34e2d6e
 Depends: libc, luci-app-wol
 Source: feeds/luci/applications/luci-app-wol
 SourceName: luci-i18n-wol-uk
 Section: luci
-SourceDateEpoch: 1605197922
+SourceDateEpoch: 1610787720
 Architecture: all
-Installed-Size: 1036
+Installed-Size: 1077
 Description:  Translation for luci-app-wol - Українська (Ukrainian)

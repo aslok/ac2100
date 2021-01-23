@@ -1,11 +1,11 @@
 Package: luci-i18n-qos-uk
-Version: git-20.346.31214-c121a43
+Version: git-21.019.75597-cc7f420
 Depends: libc, luci-app-qos
 Source: feeds/luci/applications/luci-app-qos
 SourceName: luci-i18n-qos-uk
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1607676014
+SourceDateEpoch: 1611089997
 Architecture: all
-Installed-Size: 1159
+Installed-Size: 1156
 Description:  Translation for luci-app-qos - Українська (Ukrainian)

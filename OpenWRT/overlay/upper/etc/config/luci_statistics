@@ -15,7 +15,6 @@ config statistics 'rrdtool'
 	option image_path '/tmp/rrdimg'
 
 config statistics 'collectd_rrdtool'
-	option DataDir '/tmp/rrd'
 	option RRARows '144'
 	option RRASingle '1'
 	option enable '1'
@@ -24,6 +23,7 @@ config statistics 'collectd_rrdtool'
 	list RRATimespans '1week'
 	list RRATimespans '1month'
 	list RRATimespans '1year'
+	option DataDir '/tmp/rrd/'
 
 config statistics 'collectd_csv'
 	option enable '0'
@@ -183,4 +183,10 @@ config statistics 'collectd_uptime'
 	option enable '0'
 
 config statistics 'collectd_openvpn'
+
+config statistics 'collectd_snmp6'
+
+config statistics 'collectd_chrony'
+
+config statistics 'collectd_dhcpleases'
 

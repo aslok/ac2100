@@ -1,11 +1,11 @@
 Package: kmod-sched-core
-Version: 5.4.82-1
-Depends: kernel (=5.4.82-1-e07a952952320d6b9387b3183cd774fb)
+Version: 5.4.91-1
+Depends: kernel (=5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
 Source: package/kernel/linux
 SourceName: kmod-sched-core
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1607691424
+SourceDateEpoch: 1610731471
 Architecture: mipsel_24kc
-Installed-Size: 60448
+Installed-Size: 60446
 Description:  Core kernel scheduler support for IP traffic

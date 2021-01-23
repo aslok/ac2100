@@ -4,10 +4,10 @@ Depends: libc
 Source: feeds/packages/libs/libdaemon
 SourceName: libdaemon
 Section: libs
-SourceDateEpoch: 1587605614
+SourceDateEpoch: 1504068074
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: mipsel_24kc
-Installed-Size: 7581
+Installed-Size: 7579
 Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
  It consists of the following parts:
  - A wrapper around fork() which does the correct daemonization procedure of a process

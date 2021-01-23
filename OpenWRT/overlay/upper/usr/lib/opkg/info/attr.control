@@ -6,7 +6,7 @@ SourceName: attr
 License: GPL-2.0-or-later
 LicenseFiles: doc/COPYING
 Section: utils
-SourceDateEpoch: 1587605614
+SourceDateEpoch: 1565725410
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 10859

@@ -1,15 +1,15 @@
 Package: nano
-Version: 5.4-1
+Version: 5.5-1
 Depends: libc, libncurses6
 Source: feeds/packages/utils/nano
 SourceName: nano
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1607092237
+SourceDateEpoch: 1610718881
 CPE-ID: cpe:/a:gnu:nano
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 54882
+Installed-Size: 55012
 Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.

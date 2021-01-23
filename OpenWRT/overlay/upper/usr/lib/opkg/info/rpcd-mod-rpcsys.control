@@ -1,12 +1,12 @@
 Package: rpcd-mod-rpcsys
-Version: 2020-09-18-3fea6559-3
-Depends: libc, libubus20191227, libubox20191228, rpcd
+Version: 2021-01-06-ea7f4717-1
+Depends: libc, libubus20191227, libubox20201212, rpcd
 Source: feeds/base/package/system/rpcd
 SourceName: rpcd-mod-rpcsys
 License: ISC
 Section: utils
-SourceDateEpoch: 1605201584
+SourceDateEpoch: 1609978883
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 3604
+Installed-Size: 3605
 Description:  Provides ubus calls for sysupgrade and password changing.

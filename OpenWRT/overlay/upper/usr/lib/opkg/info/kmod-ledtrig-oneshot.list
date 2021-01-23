@@ -1,2 +1,2 @@
 /etc/modules.d/50-ledtrig-oneshot
-/lib/modules/5.4.82/ledtrig-oneshot.ko
+/lib/modules/5.4.91/ledtrig-oneshot.ko
