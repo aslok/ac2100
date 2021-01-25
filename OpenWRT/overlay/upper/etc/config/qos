@@ -84,11 +84,11 @@ config classify
 	option dsthost '192.168.1.18'
 
 config classify
-	option target 'C'
+	option target 'A'
 	option srchost '192.168.1.19'
 
 config classify
-	option target 'C'
+	option target 'A'
 	option dsthost '192.168.1.19'
 
 config classify
@@ -98,6 +98,22 @@ config classify
 config classify
 	option target 'B'
 	option dsthost '192.168.1.21'
+
+config classify
+	option target 'A'
+	option srchost '192.168.1.51'
+
+config classify
+	option target 'A'
+	option dsthost '192.168.1.51'
+
+config classify
+	option target 'A'
+	option srchost '192.168.1.52'
+
+config classify
+	option target 'A'
+	option dsthost '192.168.1.52'
 
 config interface 'wan'
 	option classgroup 'Default'
