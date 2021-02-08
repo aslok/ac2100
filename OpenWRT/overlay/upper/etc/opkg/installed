@@ -49,7 +49,6 @@ luci-i18n-commands-uk
 luci-i18n-firewall-uk
 luci-i18n-opkg-uk
 luci-i18n-qos-uk
-luci-i18n-samba4-uk
 luci-i18n-statistics-uk
 luci-i18n-upnp-uk
 luci-i18n-wol-uk
@@ -78,7 +77,6 @@ rpcd-mod-luci
 rpcd-mod-rpcsys
 rpcd-mod-rrdns
 rsync
-samba4-utils
 smartdns
 tcpdump
 tor

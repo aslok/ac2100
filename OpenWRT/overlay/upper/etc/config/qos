@@ -101,6 +101,14 @@ config classify
 
 config classify
 	option target 'A'
+	option srchost '192.168.1.26'
+
+config classify
+	option target 'A'
+	option dsthost '192.168.1.26'
+
+config classify
+	option target 'A'
 	option srchost '192.168.1.51'
 
 config classify

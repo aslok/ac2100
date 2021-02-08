@@ -745,6 +745,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
+Package: collectd-mod-network
+Version: 5.12.0-5
+Depends: libc, collectd
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1611411326
+Auto-Installed: yes
+
 Package: libblkid1
 Version: 2.36.1-1
 Depends: libc, libuuid1
@@ -761,14 +769,6 @@ Provides: libmnl
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
-Auto-Installed: yes
-
-Package: collectd-mod-network
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411326
 Auto-Installed: yes
 
 Package: collectd-mod-wireless
@@ -848,6 +848,14 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1611411207
+Auto-Installed: yes
+
 Package: uclient-fetch
 Version: 2020-12-10-2c843b2b-1
 Depends: libc, libuclient20201210
@@ -857,14 +865,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
-
-Package: libdaemon
-Version: 0.14-5
-Depends: libc
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411207
-Auto-Installed: yes
 
 Package: luci-i18n-base-uk
 Version: git-21.020.58907-c434b50
@@ -1045,18 +1045,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 
-Package: samba4-server
-Version: 4.13.3-2
-Depends: libc, samba4-libs
-Conflicts: samba36-server
-Status: install ok installed
-Architecture: mipsel_24kc
-Conffiles:
- /etc/config/samba4 874cfeaa5b2a5d739121fc630e5ae4fb5826a50e96fb17a542776ae72d80c486
- /etc/samba/smb.conf.template ef9d3b7541d8f8acf3c3068a8cdb20bcc4d5cdaa14bb0dcb46188b7feca3e276
-Installed-Time: 1611411286
-Auto-Installed: yes
-
 Package: rpcd-mod-luci
 Version: 20201107
 Depends: libc, rpcd, libubox20201212, libubus20191227, libnl-tiny1
@@ -1159,14 +1147,6 @@ Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-mac80211, km
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
-
-Package: samba4-libs
-Version: 4.13.3-2
-Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl1.1, libpthread, liburing, libpam, attr, libavahi-client
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411281
-Auto-Installed: yes
 
 Package: libreadline8
 Version: 8.0-1
@@ -1283,13 +1263,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: luci-i18n-samba4-uk
-Version: git-21.018.58114-bce9617
-Depends: libc, luci-app-samba4
-Status: install user installed
-Architecture: all
-Installed-Time: 1611411290
-
 Package: jshn
 Version: 2020-12-12-35787769-1
 Depends: libc, libjson-c5, libubox20201212, libblobmsg-json
@@ -1338,13 +1311,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: samba4-utils
-Version: 4.13.3-2
-Depends: libc, samba4-libs
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411377
-
 Package: luci-app-wol
 Version: git-20.351.38430-fb302e4
 Depends: libc, etherwake
@@ -1358,14 +1324,6 @@ Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611411028
-
-Package: luci-app-samba4
-Version: git-20.179.75976-ec03451
-Depends: libc, samba4-server
-Status: install ok installed
-Architecture: all
-Installed-Time: 1611411290
-Auto-Installed: yes
 
 Package: collectd-mod-load
 Version: 5.12.0-5
@@ -1556,18 +1514,18 @@ Architecture: mipsel_24kc
 Installed-Time: 1611411407
 Auto-Installed: yes
 
-Package: libuclient20201210
-Version: 2020-12-10-2c843b2b-1
-Depends: libc, libubox20201212
-Provides: libuclient
+Package: liblucihttp-lua
+Version: 2019-07-05-a34a17d5-1
+Depends: libc, liblucihttp0, liblua5.1.5
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: liblucihttp-lua
-Version: 2019-07-05-a34a17d5-1
-Depends: libc, liblucihttp0, liblua5.1.5
+Package: libuclient20201210
+Version: 2020-12-10-2c843b2b-1
+Depends: libc, libubox20201212
+Provides: libuclient
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
@@ -1942,19 +1900,19 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: kmod-ipt-nat
-Version: 5.4.91-1
-Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-ipt-core, kmod-nf-nat
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611342879
-Auto-Installed: yes
-
 Package: kmod-sched-core
 Version: 5.4.91-1
 Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611411055
+Auto-Installed: yes
+
+Package: kmod-ipt-nat
+Version: 5.4.91-1
+Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-ipt-core, kmod-nf-nat
+Status: install ok installed
+Architecture: mipsel_24kc
+Installed-Time: 1611342879
 Auto-Installed: yes
 
