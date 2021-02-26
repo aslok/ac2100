@@ -186,13 +186,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: zram-swap
-Version: 8
-Depends: libc, kmod-zram
-Status: install user installed
-Architecture: all
-Installed-Time: 1611411407
-
 Package: libubus-lua
 Version: 2020-12-04-d1d9ddf9-1
 Depends: libc, libubus20191227, liblua5.1.5
@@ -1505,14 +1498,6 @@ Provides: ca-certs
 Status: install user installed
 Architecture: all
 Installed-Time: 1611342879
-
-Package: kmod-zram
-Version: 5.4.91-1
-Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-lib-lzo
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411407
-Auto-Installed: yes
 
 Package: liblucihttp-lua
 Version: 2019-07-05-a34a17d5-1
