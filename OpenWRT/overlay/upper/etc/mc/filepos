@@ -1,4 +1,4 @@
+/etc/config/qos 57;0;940
 /etc/tor/torrc 53;0;2311
 /etc/config/tor 1;0;0
-/etc/config/qos 108;37;1812
 /usr/bin/statistics 9;37;397

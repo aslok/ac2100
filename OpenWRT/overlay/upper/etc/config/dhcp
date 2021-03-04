@@ -10,10 +10,8 @@ config dnsmasq
 	option localise_queries '1'
 	option cachesize '2000'
 	option domainneeded '1'
-	option rebind_protection '1'
-	option rebind_localhost '1'
-	option quietdhcp '1'
 	option localservice '0'
+	option rebind_protection '0'
 
 config odhcpd 'odhcpd'
 	option maindhcp '0'
@@ -215,4 +213,10 @@ config host
 	option dns '1'
 	option mac '30:C9:AB:17:02:39'
 	option ip '192.168.1.6'
+
+config host
+	option name 'biost3r'
+	option dns '1'
+	option ip '192.168.1.7'
+	option mac '38:6B:1C:DA:6A:3E'
 

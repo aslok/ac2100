@@ -173,3 +173,13 @@ config include 'miniupnpd'
 	option family 'any'
 	option reload '1'
 
+config redirect
+	option target 'DNAT'
+	option name 'Biost3r'
+	list proto 'tcp'
+	option src 'wan'
+	option src_dport '21781'
+	option dest 'lan'
+	option dest_ip '192.168.1.7'
+	option dest_port '80'
+

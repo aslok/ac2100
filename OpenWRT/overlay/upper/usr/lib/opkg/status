@@ -21,16 +21,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 
-Package: luci-app-statistics
-Version: git-21.019.76293-dfa82b4
-Depends: libc, luci-base, luci-lib-jsonc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
-Status: install ok installed
-Architecture: all
-Conffiles:
- /etc/config/luci_statistics 60adbaa4ce9f5e970d03fae4729543de35e36070bb5c7112d15ff8a4cf53bf17
-Installed-Time: 1611411605
-Auto-Installed: yes
-
 Package: liblucihttp0
 Version: 2019-07-05-a34a17d5-1
 Depends: libc
@@ -298,13 +288,6 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
-
-Package: collectd-mod-disk
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411002
 
 Package: mc
 Version: 4.8.25-1
@@ -687,14 +670,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611411373
 
-Package: collectd-mod-interface
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411320
-Auto-Installed: yes
-
 Package: firewall
 Version: 2020-09-05-8c2f9fad-1
 Depends: libc, libubox20201212, libubus20191227, libuci20130104, libip4tc2, libip6tc2, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
@@ -738,14 +713,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: collectd-mod-network
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411326
-Auto-Installed: yes
-
 Package: libblkid1
 Version: 2.36.1-1
 Depends: libc, libuuid1
@@ -763,13 +730,6 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
-
-Package: collectd-mod-wireless
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411019
 
 Package: libgnutls
 Version: 3.7.0-2
@@ -903,16 +863,6 @@ Depends: libc, liblua5.1.5
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
-Auto-Installed: yes
-
-Package: collectd
-Version: 5.12.0-5
-Depends: libc, libpthread, zlib, libltdl7, libip4tc2, jshn, liblua5.1.5
-Status: install ok installed
-Architecture: mipsel_24kc
-Conffiles:
- /etc/config/collectd cda0744d4895bf60ad375cd12aafb01bbb3ffd37339866af16a6dae348e6f705
-Installed-Time: 1611411002
 Auto-Installed: yes
 
 Package: libip4tc2
@@ -1183,14 +1133,6 @@ Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611408007
 
-Package: collectd-mod-iwinfo
-Version: 5.12.0-5
-Depends: libc, collectd, libiwinfo20210106
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411309
-Auto-Installed: yes
-
 Package: libjson-script
 Version: 2020-12-12-35787769-1
 Depends: libc, libubox20201212
@@ -1198,13 +1140,6 @@ Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
-
-Package: luci-i18n-statistics-uk
-Version: git-21.020.58907-c434b50
-Depends: libc, luci-app-statistics
-Status: install user installed
-Architecture: all
-Installed-Time: 1611411605
 
 Package: luci-proto-ipv6
 Version: git-20.247.70930-f94958e
@@ -1272,13 +1207,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: collectd-mod-vmem
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411016
-
 Package: kmod-ipt-core
 Version: 5.4.91-1
 Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201), kmod-nf-reject, kmod-nf-ipt
@@ -1317,14 +1245,6 @@ Depends: kernel (= 5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
 Status: install user installed
 Architecture: mipsel_24kc
 Installed-Time: 1611411028
-
-Package: collectd-mod-load
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411323
-Auto-Installed: yes
 
 Package: ip-tiny
 Version: 5.10.0-1
@@ -1483,14 +1403,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611411122
 Auto-Installed: yes
 
-Package: collectd-mod-rrdtool
-Version: 5.12.0-5
-Depends: libc, collectd, librrd1
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411305
-Auto-Installed: yes
-
 Package: ca-bundle
 Version: 20200601-1
 Depends: libc
@@ -1522,14 +1434,6 @@ Depends: libc, liblua5.1.5, libjson-c5
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611342879
-Auto-Installed: yes
-
-Package: collectd-mod-memory
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411316
 Auto-Installed: yes
 
 Package: kmod-ipt-ipopt
@@ -1763,13 +1667,6 @@ Architecture: mipsel_24kc
 Installed-Time: 1611342879
 Auto-Installed: yes
 
-Package: collectd-mod-dns
-Version: 5.12.0-5
-Depends: libc, collectd, libpcap1
-Status: install user installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411010
-
 Package: iperf3
 Version: 3.9-1
 Depends: libc
@@ -1784,14 +1681,6 @@ Provides: libpopt
 Status: install ok installed
 Architecture: mipsel_24kc
 Installed-Time: 1611408006
-Auto-Installed: yes
-
-Package: collectd-mod-cpu
-Version: 5.12.0-5
-Depends: libc, collectd
-Status: install ok installed
-Architecture: mipsel_24kc
-Installed-Time: 1611411312
 Auto-Installed: yes
 
 Package: kmod-ipt-offload

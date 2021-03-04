@@ -3,10 +3,6 @@ base-files
 bash
 busybox
 ca-bundle
-collectd-mod-disk
-collectd-mod-dns
-collectd-mod-vmem
-collectd-mod-wireless
 coreutils-sort
 dnsmasq
 dropbear
@@ -49,7 +45,6 @@ luci-i18n-commands-uk
 luci-i18n-firewall-uk
 luci-i18n-opkg-uk
 luci-i18n-qos-uk
-luci-i18n-statistics-uk
 luci-i18n-upnp-uk
 luci-i18n-wol-uk
 luci-mod-admin-full
