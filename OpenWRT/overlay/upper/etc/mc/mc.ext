@@ -176,6 +176,11 @@ type/^LHa\ .*archive
 	Open=%cd %p/ulha://
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view lha
 
+# PAK
+type/^PAK\ .*archive
+	Open=%cd %p/unar://
+	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view pak
+
 # arj
 regex/i/\.a(rj|[0-9][0-9])$
 	Open=%cd %p/uarj://
@@ -361,16 +366,6 @@ shell/.info
 shell/i/.3gp
 	Include=video
 
-# Manual page
-regex/(([^0-9]|^[^\.]*)\.([1-9][A-Za-z]*|[ln])|\.man)$
-	Open=/usr/lib/mc/ext.d/text.sh open man %var{PAGER:more}
-	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view man %var{PAGER:more}
-
-# Perl pod page
-shell/.pod
-	Open=/usr/lib/mc/ext.d/text.sh open pod %var{PAGER:more}
-	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view pod %var{PAGER:more}
-
 # Troff with me macros.
 # Exception - "read.me" is not a nroff file.
 shell/read.me
@@ -387,17 +382,27 @@ shell/.ms
 	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view nroff.ms %var{PAGER:more}
 
 # Manual page - compressed
-regex/([^0-9]|^[^\.]*)\.([1-9][A-Za-z]*|[ln])\.g?[Zz]$
+type/^(ASCII )?troff.*gzip compressed
 	Open=/usr/lib/mc/ext.d/text.sh open man.gz %var{PAGER:more}
 	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view man.gz %var{PAGER:more}
 
-regex/([^0-9]|^[^\.]*)\.([1-9][A-Za-z]*|[ln])\.bz$
+type/^(ASCII )?troff.*bzip compressed
 	Open=/usr/lib/mc/ext.d/text.sh open man.bz %var{PAGER:more}
 	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view man.bz %var{PAGER:more}
 
-regex/([^0-9]|^[^\.]*)\.([1-9][A-Za-z]*|[ln])\.bz2$
+type/^(ASCII )?troff.*bzip2 compressed
 	Open=/usr/lib/mc/ext.d/text.sh open man.bz2 %var{PAGER:more}
 	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view man.bz2 %var{PAGER:more}
+
+# Manual page
+type/^(ASCII )?troff
+	Open=/usr/lib/mc/ext.d/text.sh open man %var{PAGER:more}
+	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view man %var{PAGER:more}
+
+# Perl pod page
+shell/.pod
+	Open=/usr/lib/mc/ext.d/text.sh open pod %var{PAGER:more}
+	View=%view{ascii,nroff} /usr/lib/mc/ext.d/text.sh view pod %var{PAGER:more}
 
 regex/([^0-9]|^[^\.]*)\.([1-9][A-Za-z]*|[ln])\.lz$
 	Open=/usr/lib/mc/ext.d/text.sh open man.lz %var{PAGER:more}
@@ -590,7 +595,7 @@ shell/.sdw
 	Open=/usr/lib/mc/ext.d/doc.sh open ooffice
 
 # StarOffice 6 and OpenOffice.org formats
-regex/i/\.(odt|ott|sxw|stw|ods|ots|sxc|stc|odp|otp|sxi|sti|odg|otg|sxd|std|odb|odf|sxm|odm|sxg)$
+regex/i/\.(odt|fodt|ott|sxw|stw|ods|fods|ots|sxc|stc|odp|fodp|otp|sxi|sti|odg|fodg|otg|sxd|std|odb|odf|sxm|odm|sxg)$
 	Open=/usr/lib/mc/ext.d/doc.sh open ooffice
 	View=%view{ascii} /usr/lib/mc/ext.d/doc.sh view odt
 
@@ -671,10 +676,6 @@ regex/i/\.(epub|mobi)$
 shell/.class
 	View=%view{ascii} /usr/lib/mc/ext.d/misc.sh view javaclass
 
-# Makefile
-regex/^[Mm]akefile$
-	Open=make -f %f %{Enter parameters}
-
 # Imakefile
 shell/Imakefile
 	Open=xmkmf -a
@@ -682,6 +683,10 @@ shell/Imakefile
 # Makefile.PL (MakeMaker)
 regex/^Makefile\.(PL|pl)$
 	Open=%var{PERL:perl} %f
+
+# Makefile
+regex/[Mm]akefile
+	Open=make -f %f %{Enter parameters}
 
 # sqlite3.db
 type/^SQLite 3.x database
@@ -761,38 +766,27 @@ shell/i/.zoo
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view zoo
 
 # gzip
-type/^gzip
+type/\(gzip compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view gz %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view gz
 
-regex/\.(gz|Z)$
-	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view gz
-
 # bzip2
-type/^bzip2
+type/\(bzip2 compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view bzip2 %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view bz2
 
-regex/\.bz2?$
-	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view bz2
-
 # bzip
-type/^bzip
+type/\(bzip compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view bzip %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view bzip
 
 # compress
-type/^compress
+type/\(compress'd
 	Open=/usr/lib/mc/ext.d/archive.sh view gz %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view gz
 
 # lz
-regex/\.lz$
-	Open=/usr/lib/mc/ext.d/archive.sh view lz %var{PAGER:more}
-	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view lz
-
-# lz
-type/^LZIP
+type/\(lzip compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view lz %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view lz
 
@@ -802,17 +796,17 @@ regex/\.lz4$
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view lz4
 
 # lzma
-regex/\.lzma$
+type/\(LZMA compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view lzma %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view lzma
 
 # xz
-regex/\.xz$
+type/\(XZ compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view xz %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view xz
 
 # zstd
-regex/\.zst$
+type/\(Zstandard compressed
 	Open=/usr/lib/mc/ext.d/archive.sh view zst %var{PAGER:more}
 	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view zst
 
@@ -820,6 +814,10 @@ regex/\.zst$
 type/^Parity\ Archive\ Volume\ Set
 	Open=/usr/lib/mc/ext.d/archive.sh open par2
 
+# WIM
+shell/i/\.wim
+	Open=%cd %p/uwim://
+	View=%view{ascii} /usr/lib/mc/ext.d/archive.sh view wim
 
 ### Includes
 # includes should be at end of bindings

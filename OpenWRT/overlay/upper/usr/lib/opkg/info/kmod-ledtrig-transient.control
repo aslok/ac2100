@@ -1,11 +1,11 @@
 Package: kmod-ledtrig-transient
-Version: 5.4.91-1
-Depends: kernel (=5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
+Version: 5.4.102-1
+Depends: kernel (=5.4.102-1-c35b4a8fb802d19ed524238972acff38)
 Source: package/kernel/linux
 SourceName: kmod-ledtrig-transient
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1610731471
+SourceDateEpoch: 1615030718
 Architecture: mipsel_24kc
-Installed-Size: 1808
+Installed-Size: 1815
 Description:  Kernel module that allows LEDs one time activation of a transient state.

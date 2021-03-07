@@ -1,0 +1,11 @@
+Package: rssileds
+Version: 3
+Depends: libc, libiwinfo20210106, libnl-tiny1, libubox20210302, libuci20130104
+Source: feeds/base/package/network/utils/rssileds
+SourceName: rssileds
+Section: net
+SourceDateEpoch: 1614939006
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: mipsel_24kc
+Installed-Size: 3370
+Description:  A small process written in C to update the signal-strength indicator LEDs

@@ -4,7 +4,7 @@ Depends: libc, miniupnpd
 Source: feeds/luci/applications/luci-app-upnp
 SourceName: luci-app-upnp
 Section: luci
-SourceDateEpoch: 1610986114
+SourceDateEpoch: 1615041922
 Architecture: all
 Installed-Size: 4122
 Description:  Universal Plug & Play configuration module

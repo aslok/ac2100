@@ -1,0 +1,4 @@
+	[ -n "${IPKG_INSTROOT}" ] || {
+		(. /etc/uci-defaults/luci-i18n-wireguard-uk) && rm -f /etc/uci-defaults/luci-i18n-wireguard-uk
+		exit 0
+	}

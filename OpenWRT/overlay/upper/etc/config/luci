@@ -16,7 +16,6 @@ config extern 'flash_keep'
 
 config internal 'languages'
 	option uk 'Українська (Ukrainian)'
-	option en 'English'
 
 config internal 'sauth'
 	option sessionpath '/tmp/luci-sessions'

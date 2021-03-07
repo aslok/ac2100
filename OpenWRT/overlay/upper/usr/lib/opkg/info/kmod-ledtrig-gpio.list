@@ -1,2 +1,2 @@
-/lib/modules/5.4.91/ledtrig-gpio.ko
+/lib/modules/5.4.102/ledtrig-gpio.ko
 /etc/modules.d/50-ledtrig-gpio

@@ -1,4 +1,2 @@
-/etc/config/qos 57;0;940
-/etc/tor/torrc 53;0;2311
-/etc/config/tor 1;0;0
-/usr/bin/statistics 9;37;397
+/etc/sysctl.conf 2;18;98
+/etc/sysctl. 1;0;0

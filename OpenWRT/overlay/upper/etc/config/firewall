@@ -1,9 +1,9 @@
 
 config defaults
+	option syn_flood '1'
 	option input 'ACCEPT'
 	option output 'ACCEPT'
 	option forward 'REJECT'
-	option synflood_protect '1'
 
 config zone
 	option name 'lan'
@@ -128,58 +128,14 @@ config rule
 	option proto 'udp'
 	option family 'ipv4'
 	option target 'REJECT'
-	option enabled '0'
+	option enabled 'false'
 
 config include
 	option path '/etc/firewall.user'
-
-config zone
-	option name 'guest'
-	option network 'guest'
-	option output 'ACCEPT'
-	option forward 'REJECT'
-	option input 'REJECT'
-
-config forwarding
-	option src 'guest'
-	option dest 'wan'
-
-config rule
-	option name 'Guest DNS'
-	option src 'guest'
-	option dest_port '53'
-	option target 'ACCEPT'
-
-config rule
-	option name 'Guest DHCP'
-	list proto 'udp'
-	option src 'guest'
-	option target 'ACCEPT'
-	option dest_port '67-68'
-
-config redirect
-	option target 'DNAT'
-	option name 'Transmission'
-	list proto 'tcp'
-	option src 'wan'
-	option src_dport '51413'
-	option dest 'lan'
-	option dest_ip '192.168.1.5'
-	option dest_port '51413'
 
 config include 'miniupnpd'
 	option type 'script'
 	option path '/usr/share/miniupnpd/firewall.include'
 	option family 'any'
 	option reload '1'
-
-config redirect
-	option target 'DNAT'
-	option name 'Biost3r'
-	list proto 'tcp'
-	option src 'wan'
-	option src_dport '21781'
-	option dest 'lan'
-	option dest_ip '192.168.1.7'
-	option dest_port '80'
 

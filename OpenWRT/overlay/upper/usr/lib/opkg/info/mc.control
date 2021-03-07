@@ -1,15 +1,14 @@
 Package: mc
-Version: 4.8.25-1
-Depends: libc, glib2, libncurses6, libmount1, libssh2-1
+Version: 4.8.26-1
+Depends: libc, glib2, libncurses6, libmount1, libssh21
 Source: feeds/packages/utils/mc
 SourceName: mc
 License: GPL-3.0-or-later
 Section: utils
-SourceDateEpoch: 1595666821
+SourceDateEpoch: 1614615390
 CPE-ID: cpe:/a:midnight_commander:midnight_commander
-Maintainer: Dirk Brenken <dev@brenken.org>
 Architecture: mipsel_24kc
-Installed-Size: 432836
+Installed-Size: 435543
 Description:  GNU Midnight Commander is a visual file manager.
  It's a feature rich full-screen text mode application that allows you to copy,
  move and delete files and whole directory trees, search for files and run commands in the subshell.

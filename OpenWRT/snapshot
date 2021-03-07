@@ -3,6 +3,7 @@ BACK=`pwd`
 cd "$(dirname "$0")"
 ssh wifi3r 'opkg update ; opkg install rsync'
 ./push overlay/upper/etc/opkg/installed
+ssh wifi3r 'mkdir -p /overlay/upper/srv/tftp/arch/'
 ./push overlay/upper/srv/tftp/arch/
 ./push overlay/upper/usr/bin/statistics
 ./push overlay/upper/usr/bin/listuserpackages

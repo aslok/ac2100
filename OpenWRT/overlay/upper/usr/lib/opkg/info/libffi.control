@@ -6,10 +6,10 @@ SourceName: libffi
 License: MIT
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1587761836
+SourceDateEpoch: 1613865735
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
-Installed-Size: 13509
+Installed-Size: 13506
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.

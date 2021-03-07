@@ -1,0 +1,3 @@
+/usr/libexec/led-trigger/rssi
+/etc/init.d/rssileds
+/usr/sbin/rssileds

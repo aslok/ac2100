@@ -1,7 +1,7 @@
+/lib/modules/5.4.102/nf_conncount.ko
 /etc/modules.d/ipt-conntrack-extra
-/lib/modules/5.4.91/xt_connmark.ko
-/lib/modules/5.4.91/xt_recent.ko
-/lib/modules/5.4.91/nf_conncount.ko
-/lib/modules/5.4.91/xt_connlimit.ko
-/lib/modules/5.4.91/xt_helper.ko
-/lib/modules/5.4.91/xt_connbytes.ko
+/lib/modules/5.4.102/xt_connlimit.ko
+/lib/modules/5.4.102/xt_connbytes.ko
+/lib/modules/5.4.102/xt_connmark.ko
+/lib/modules/5.4.102/xt_helper.ko
+/lib/modules/5.4.102/xt_recent.ko

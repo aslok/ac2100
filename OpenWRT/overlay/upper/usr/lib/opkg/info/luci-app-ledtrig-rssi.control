@@ -1,0 +1,10 @@
+Package: luci-app-ledtrig-rssi
+Version: git-20.125.36159-be640ce
+Depends: libc, rssileds
+Source: feeds/luci/applications/luci-app-ledtrig-rssi
+SourceName: luci-app-ledtrig-rssi
+Section: luci
+SourceDateEpoch: 1588586559
+Architecture: all
+Installed-Size: 555
+Description:  LuCI Support for ledtrigger rssi

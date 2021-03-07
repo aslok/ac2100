@@ -1,0 +1,10 @@
+Package: luci-app-ledtrig-switch
+Version: git-20.125.36161-a6fa3ce
+Depends: libc
+Source: feeds/luci/applications/luci-app-ledtrig-switch
+SourceName: luci-app-ledtrig-switch
+Section: luci
+SourceDateEpoch: 1588586561
+Architecture: all
+Installed-Size: 463
+Description:  LuCI Support for ledtrigger switch

@@ -1,11 +1,11 @@
 Package: kmod-ifb
-Version: 5.4.91-1
-Depends: kernel (=5.4.91-1-6b0e6ccfc1a63ac8682d721effce8201)
+Version: 5.4.102-1
+Depends: kernel (=5.4.102-1-c35b4a8fb802d19ed524238972acff38)
 Source: package/kernel/linux
 SourceName: kmod-ifb
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1610731471
+SourceDateEpoch: 1615030718
 Architecture: mipsel_24kc
-Installed-Size: 3341
+Installed-Size: 3342
 Description:  The Intermediate Functional Block

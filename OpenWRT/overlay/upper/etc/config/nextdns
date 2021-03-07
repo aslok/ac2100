@@ -1,0 +1,8 @@
+
+config nextdns 'main'
+	option setup_router '1'
+	option report_client_info '1'
+	option hardened_privacy '0'
+	option log_queries '0'
+	option enabled '0'
+

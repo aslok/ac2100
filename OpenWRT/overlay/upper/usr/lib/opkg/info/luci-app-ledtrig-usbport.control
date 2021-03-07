@@ -1,0 +1,10 @@
+Package: luci-app-ledtrig-usbport
+Version: git-20.125.36164-91cee75
+Depends: libc, kmod-usb-ledtrig-usbport
+Source: feeds/luci/applications/luci-app-ledtrig-usbport
+SourceName: luci-app-ledtrig-usbport
+Section: luci
+SourceDateEpoch: 1588586564
+Architecture: all
+Installed-Size: 752
+Description:  LuCI Support for ledtrigger usbport

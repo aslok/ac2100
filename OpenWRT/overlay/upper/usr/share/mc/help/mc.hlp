@@ -1047,9 +1047,11 @@ Confirmation
 In this dialog you configure the confirmation options for file deletion, overwriting files, execution by pressing enter, quitting the program, directory hotlist entries deletion and history cleanup.[Appearance]
 Appearance
 
-In this dialog you can select the skin to be used.
+In this dialog you can select the skin to be used and enable shadow for dialogs and drop down menus.
 
-See the SkinsSkins section for technical details about the skin definition files.[Display bits]
+See the SkinsSkins section for technical details about the skin definition files.
+
+Shadows. If this option is enabled, all dialogs and drop down menus will have a shadow.[Display bits]
 Display bits
 
 This is used to configure the range of visible characters on the screen. This setting may be 7-bits if your terminal/curses supports only seven output bits, ISO-8859-1 displays all the characters in the ISO-8859-1 map and full 8 bits is for those terminals that can display full 8 bit characters.[Learn keys]

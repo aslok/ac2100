@@ -5,7 +5,7 @@ Source: feeds/luci/applications/luci-app-commands
 SourceName: luci-app-commands
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1611159707
+SourceDateEpoch: 1614929745
 Architecture: all
 Installed-Size: 5060
 Description:  LuCI Shell Command Module

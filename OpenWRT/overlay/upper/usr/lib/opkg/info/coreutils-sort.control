@@ -7,9 +7,9 @@ SourceName: coreutils-sort
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1591965304
+SourceDateEpoch: 1613865735
 CPE-ID: cpe:/a:gnu:coreutils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 43007
+Installed-Size: 43004
 Description:  Full version of standard GNU sort utility.
