@@ -28,6 +28,7 @@ config dhcp 'lan'
 	option start '128'
 	option limit '128'
 	option leasetime '24h'
+	list dhcp_option '42,192.168.1.1'
 
 config dhcp 'wan'
 	option interface 'wan'
