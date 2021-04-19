@@ -1,11 +1,11 @@
 Package: luci-i18n-firewall-uk
-Version: git-21.065.53122-e8404d8
+Version: git-21.099.29320-db00103
 Depends: libc, luci-app-firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-i18n-firewall-uk
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1615041922
+SourceDateEpoch: 1617955720
 Architecture: all
-Installed-Size: 7653
+Installed-Size: 7692
 Description:  Translation for luci-app-firewall - Українська (Ukrainian)

@@ -7,6 +7,7 @@ SourceName: libmnl
 License: LGPL-2.1+
 Section: libs
 SourceDateEpoch: 1548322770
+ABIVersion: 0
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 5253

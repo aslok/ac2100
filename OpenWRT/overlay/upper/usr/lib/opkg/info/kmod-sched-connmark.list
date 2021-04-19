@@ -1,2 +1,2 @@
-/lib/modules/5.4.102/act_connmark.ko
+/lib/modules/5.4.109/act_connmark.ko
 /etc/modules.d/71-sched-connmark

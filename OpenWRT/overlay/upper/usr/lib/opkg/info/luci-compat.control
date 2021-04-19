@@ -1,10 +1,10 @@
 Package: luci-compat
-Version: git-21.020.56896-af422b1
+Version: git-21.099.44952-2155868
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-compat
 SourceName: luci-compat
 Section: luci
-SourceDateEpoch: 1611157696
+SourceDateEpoch: 1617971352
 Architecture: all
-Installed-Size: 45330
+Installed-Size: 45354
 Description:  LuCI compatibility libraries

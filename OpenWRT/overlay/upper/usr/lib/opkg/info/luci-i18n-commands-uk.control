@@ -1,11 +1,11 @@
 Package: luci-i18n-commands-uk
-Version: git-21.064.27345-7bdcedb
+Version: git-21.099.29320-db00103
 Depends: libc, luci-app-commands
 Source: feeds/luci/applications/luci-app-commands
 SourceName: luci-i18n-commands-uk
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1614929745
+SourceDateEpoch: 1617971779
 Architecture: all
 Installed-Size: 1344
 Description:  Translation for luci-app-commands - Українська (Ukrainian)

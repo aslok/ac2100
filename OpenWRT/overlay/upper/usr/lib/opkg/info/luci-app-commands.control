@@ -1,11 +1,11 @@
 Package: luci-app-commands
-Version: git-20.132.35301-2c0886b
+Version: git-21.099.45379-36959dc
 Depends: libc, luci-compat
 Source: feeds/luci/applications/luci-app-commands
 SourceName: luci-app-commands
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1614929745
+SourceDateEpoch: 1617971779
 Architecture: all
-Installed-Size: 5060
+Installed-Size: 5074
 Description:  LuCI Shell Command Module

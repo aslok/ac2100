@@ -7,9 +7,10 @@ SourceName: libssh2
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1589221737
+SourceDateEpoch: 1616907110
+ABIVersion: 1
 CPE-ID: cpe:/a:libssh2:libssh2
 Maintainer: Jiri Slachta <jiri@slachta.eu>
 Architecture: mipsel_24kc
-Installed-Size: 83476
+Installed-Size: 83472
 Description:  libssh2 is a client-side C library implementing the SSH2 protocol.

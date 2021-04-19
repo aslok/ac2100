@@ -1,12 +1,12 @@
 Package: bash
-Version: 5.1-2
+Version: 5.1-3
 Depends: libc, libncurses6, libreadline8
 Source: feeds/packages/utils/bash
 SourceName: bash
 License: GPL-3.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1609340981
+SourceDateEpoch: 1617501429
 CPE-ID: cpe:/a:gnu:bash
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: mipsel_24kc

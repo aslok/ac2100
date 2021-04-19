@@ -1,5 +1,5 @@
 Package: tor
-Version: 0.4.5.6-1
+Version: 0.4.5.7-1
 Depends: libc, libevent27, libopenssl1.1, libpthread, librt, zlib, libcap
 Conflicts: tor-basic
 Provides: tor-basic
@@ -8,11 +8,11 @@ SourceName: tor
 LicenseFiles: LICENSE
 Section: net
 Require-User: tor=52:tor=52
-SourceDateEpoch: 1614245460
+SourceDateEpoch: 1615914870
 CPE-ID: cpe:/a:torproject:tor
 Maintainer: Hauke Mehrtens <hauke@hauke-m.de> Peter Wagner <tripolar@gmx.at>
 Architecture: mipsel_24kc
-Installed-Size: 1294903
+Installed-Size: 1291221
 Description:  Tor is a toolset for a wide range of organizations and people that want to
  improve their safety and security on the Internet. Using Tor can help you
  anonymize web browsing and publishing, instant messaging, IRC, SSH, and

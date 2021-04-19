@@ -7,4 +7,4 @@ sed -ne '/^Package:[[:blank:]]*/ {
 /user installed/ {
     g
     p
-}' /usr/lib/opkg/status | sort -h
+}' /usr/lib/opkg/status | grep -v base-files | grep -v netifd | sort -h

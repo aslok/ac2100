@@ -7,11 +7,11 @@ config dnsmasq
 	option enable_tftp '1'
 	option strictorder '1'
 	option filterwin2k '1'
-	option localise_queries '1'
-	option cachesize '2000'
 	option domainneeded '1'
 	option localservice '0'
 	option rebind_protection '0'
+	option boguspriv '0'
+	option cachesize '1000'
 
 config odhcpd 'odhcpd'
 	option maindhcp '0'

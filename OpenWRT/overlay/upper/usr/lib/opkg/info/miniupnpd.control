@@ -1,13 +1,13 @@
 Package: miniupnpd
-Version: 2.2.1-1
+Version: 2.2.1-2
 Depends: libc, iptables, libip4tc2, libip6tc2, ip6tables, libuuid1, libcap-ng
 Source: feeds/packages/net/miniupnpd
 SourceName: miniupnpd
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1613865735
+SourceDateEpoch: 1616256085
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: mipsel_24kc
-Installed-Size: 57455
+Installed-Size: 57475
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon

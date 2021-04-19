@@ -8,6 +8,7 @@ License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: libs
 SourceDateEpoch: 1613327895
+ABIVersion: 7
 CPE-ID: cpe:/a:libevent_project:libevent
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
